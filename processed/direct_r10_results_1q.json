@@ -1,0 +1,70 @@
+{
+  "model": "llama3:8b",
+  "retriever": "facebook/contriever-msmarco",
+  "top_k": 10,
+  "questions_evaluated": 1,
+  "exact_match_accuracy": 1.0,
+  "average_answer_f1": 1.0,
+  "results": [
+    {
+      "question_number": 1,
+      "question": "Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried.",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.8246556520462036
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.8240363597869873
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.798261046409607
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.756563425064087
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.748854160308838
+        },
+        {
+          "chunk_index": 1757,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.736031413078308
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.7257047891616821
+        },
+        {
+          "chunk_index": 79,
+          "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+          "score": 1.6945022344589233
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6863000392913818
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.6848907470703125
+        }
+      ]
+    }
+  ]
+}

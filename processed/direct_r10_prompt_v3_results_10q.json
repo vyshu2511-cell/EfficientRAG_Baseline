@@ -1,0 +1,610 @@
+{
+  "model": "llama3:8b",
+  "retriever": "facebook/contriever-msmarco",
+  "top_k": 10,
+  "questions_evaluated": 10,
+  "exact_match_accuracy": 0.8,
+  "average_answer_f1": 0.8,
+  "results": [
+    {
+      "question_number": 1,
+      "question": "Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.8246556520462036
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.8240363597869873
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.798261046409607
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.756563425064087
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.748854160308838
+        },
+        {
+          "chunk_index": 1757,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.736031413078308
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.7257047891616821
+        },
+        {
+          "chunk_index": 79,
+          "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+          "score": 1.6945022344589233
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6863000392913818
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.6848907470703125
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question": "Which individual is implicated in both inflating the value of a Manhattan apartment to a figure not yet achieved in New York City's real estate history, according to 'Fortune', and is also accused of adjusting this apartment's valuation to compensate for a loss in another asset's worth, as reported by 'The Age'?",
+      "reference_answer": "Donald Trump",
+      "generated_answer": "Donald Trump",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4744,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.5610647201538086
+        },
+        {
+          "chunk_index": 4742,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.471184253692627
+        },
+        {
+          "chunk_index": 4743,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.468775749206543
+        },
+        {
+          "chunk_index": 4754,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.4591305255889893
+        },
+        {
+          "chunk_index": 4746,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.4560303688049316
+        },
+        {
+          "chunk_index": 4745,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.419081449508667
+        },
+        {
+          "chunk_index": 4748,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3868062496185303
+        },
+        {
+          "chunk_index": 4751,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3742215633392334
+        },
+        {
+          "chunk_index": 4753,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3633129596710205
+        },
+        {
+          "chunk_index": 4749,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3332757949829102
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question": "Who is the figure associated with generative AI technology whose departure from OpenAI was considered shocking according to Fortune, and is also the subject of a prevailing theory suggesting a lack of full truthfulness with the board as reported by TechCrunch?",
+      "reference_answer": "Sam Altman",
+      "generated_answer": "Sam Altman",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3187,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8341870307922363
+        },
+        {
+          "chunk_index": 4589,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8260512351989746
+        },
+        {
+          "chunk_index": 3184,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8124264478683472
+        },
+        {
+          "chunk_index": 483,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.8028335571289062
+        },
+        {
+          "chunk_index": 4590,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.7165615558624268
+        },
+        {
+          "chunk_index": 3185,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7059383392333984
+        },
+        {
+          "chunk_index": 3186,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7040352821350098
+        },
+        {
+          "chunk_index": 211,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.7022483348846436
+        },
+        {
+          "chunk_index": 3194,
+          "title": "WTF is going on at OpenAI? We have theories",
+          "score": 1.7000408172607422
+        },
+        {
+          "chunk_index": 210,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.6987807750701904
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question": "Do the TechCrunch article on software companies and the Hacker News article on The Epoch Times both report an increase in revenue related to payment and subscription models, respectively?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 740,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4761602878570557
+        },
+        {
+          "chunk_index": 745,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4508249759674072
+        },
+        {
+          "chunk_index": 757,
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "score": 1.4333620071411133
+        },
+        {
+          "chunk_index": 746,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4192447662353516
+        },
+        {
+          "chunk_index": 741,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.405453085899353
+        },
+        {
+          "chunk_index": 4577,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.3938181400299072
+        },
+        {
+          "chunk_index": 742,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.3838250637054443
+        },
+        {
+          "chunk_index": 761,
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "score": 1.3815522193908691
+        },
+        {
+          "chunk_index": 1931,
+          "title": "X plans to use payment, phone and ID verification to stop bots, in addition to the new $1/yr fee",
+          "score": 1.3751252889633179
+        },
+        {
+          "chunk_index": 1169,
+          "title": "OpenAI hosts a dev day, TechCrunch reviews the M3 iMac and MacBook Pro, and Bumble gets a new CEO",
+          "score": 1.3665339946746826
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question": "Which online betting platform provides a welcome bonus of up to $1000 in bonus bets for new customers' first losses, runs NBA betting promotions, and is anticipated to extend the same sign-up offer to new users in Vermont, as reported by both CBSSports.com and Sporting News?",
+      "reference_answer": "Caesars Sportsbook",
+      "generated_answer": "Caesars Sportsbook",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 722,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 2.0084688663482666
+        },
+        {
+          "chunk_index": 716,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 2.00730037689209
+        },
+        {
+          "chunk_index": 714,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9975330829620361
+        },
+        {
+          "chunk_index": 715,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9707393646240234
+        },
+        {
+          "chunk_index": 3452,
+          "title": "The Best NBA Betting Sites and Apps for the 2023-24 Season",
+          "score": 1.9645297527313232
+        },
+        {
+          "chunk_index": 712,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9631093740463257
+        },
+        {
+          "chunk_index": 3451,
+          "title": "The Best NBA Betting Sites and Apps for the 2023-24 Season",
+          "score": 1.9630802869796753
+        },
+        {
+          "chunk_index": 713,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.958070158958435
+        },
+        {
+          "chunk_index": 721,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9448456764221191
+        },
+        {
+          "chunk_index": 717,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9419173002243042
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question": "Who is the individual alleged to have built a thriving crypto exchange on falsehoods and is accused by the prosecution of committing fraud for personal gain, as reported by both Fortune and TechCrunch?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.8110555410385132
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.806394100189209
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.7793400287628174
+        },
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7605870962142944
+        },
+        {
+          "chunk_index": 1757,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7485527992248535
+        },
+        {
+          "chunk_index": 1625,
+          "title": "Is Sam Bankman-Fried’s defense even trying to win?",
+          "score": 1.734286904335022
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.7168948650360107
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7159773111343384
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.6913272142410278
+        },
+        {
+          "chunk_index": 231,
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "score": 1.683407187461853
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "question": "Does the TechCrunch article on Twitch's subscription revenue split policy indicate a different monetization strategy compared to the TechCrunch article on Beeper's plans for Beeper Mini subscriptions?",
+      "reference_answer": "Yes",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3696,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.9346141815185547
+        },
+        {
+          "chunk_index": 3698,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.8477474451065063
+        },
+        {
+          "chunk_index": 3695,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.8412331342697144
+        },
+        {
+          "chunk_index": 3701,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.7536468505859375
+        },
+        {
+          "chunk_index": 3699,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.7510595321655273
+        },
+        {
+          "chunk_index": 3697,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.7482757568359375
+        },
+        {
+          "chunk_index": 3702,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.741081714630127
+        },
+        {
+          "chunk_index": 3744,
+          "title": "Kick streamers consider leaving over CEO’s comments in a sex worker ‘prank’ stream",
+          "score": 1.6950198411941528
+        },
+        {
+          "chunk_index": 3745,
+          "title": "Kick streamers consider leaving over CEO’s comments in a sex worker ‘prank’ stream",
+          "score": 1.6591583490371704
+        },
+        {
+          "chunk_index": 3700,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.6576706171035767
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "question": "Does 'The New York Times' article attribute the success of the Buffalo Bills' defense to the contributions of Jordan Poyer, while the 'Sporting News' article suggests that the Baltimore Ravens' defense needs to improve before their game against the Cincinnati Bengals?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3103,
+          "title": "Alcoholism, Ayahuasca and the Enlightenment of an N.F.L. Player",
+          "score": 1.7631731033325195
+        },
+        {
+          "chunk_index": 3111,
+          "title": "Alcoholism, Ayahuasca and the Enlightenment of an N.F.L. Player",
+          "score": 1.7376046180725098
+        },
+        {
+          "chunk_index": 3112,
+          "title": "Alcoholism, Ayahuasca and the Enlightenment of an N.F.L. Player",
+          "score": 1.673283576965332
+        },
+        {
+          "chunk_index": 2869,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6553525924682617
+        },
+        {
+          "chunk_index": 1198,
+          "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+          "score": 1.6416562795639038
+        },
+        {
+          "chunk_index": 2865,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6365759372711182
+        },
+        {
+          "chunk_index": 2858,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6332534551620483
+        },
+        {
+          "chunk_index": 2860,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6298396587371826
+        },
+        {
+          "chunk_index": 2859,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.624696969985962
+        },
+        {
+          "chunk_index": 2876,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.60260808467865
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "question": "What is the name of the organization discussed in TechCrunch articles that, despite its financial instability, is recognized for creating ChatGPT, which is both a priority and a platform for ongoing innovations, and is planning to enhance its capabilities with the release of GPT-4 and associated APIs?",
+      "reference_answer": "OpenAI",
+      "generated_answer": "OpenAI",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 372,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.835524082183838
+        },
+        {
+          "chunk_index": 399,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.8053920269012451
+        },
+        {
+          "chunk_index": 371,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.8006871938705444
+        },
+        {
+          "chunk_index": 402,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7826827764511108
+        },
+        {
+          "chunk_index": 380,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7820863723754883
+        },
+        {
+          "chunk_index": 394,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7506368160247803
+        },
+        {
+          "chunk_index": 996,
+          "title": "How OpenAI's ChatGPT has changed the world in just a year",
+          "score": 1.7321619987487793
+        },
+        {
+          "chunk_index": 393,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7176146507263184
+        },
+        {
+          "chunk_index": 400,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7152190208435059
+        },
+        {
+          "chunk_index": 401,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7039704322814941
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "question": "Which company, as reported by both TechCrunch and The Verge, has spent billions to maintain its default search engine status on various platforms and is also accused of harming news publishers’ revenue through its business practices?",
+      "reference_answer": "Google",
+      "generated_answer": "Google",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.693152666091919
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6877503395080566
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6645716428756714
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.6605195999145508
+        },
+        {
+          "chunk_index": 245,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.5963770151138306
+        },
+        {
+          "chunk_index": 237,
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "score": 1.5829272270202637
+        },
+        {
+          "chunk_index": 1057,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.550579309463501
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.5486997365951538
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.5460526943206787
+        },
+        {
+          "chunk_index": 2375,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.545649766921997
+        }
+      ]
+    }
+  ]
+}
