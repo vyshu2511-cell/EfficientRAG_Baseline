@@ -1,0 +1,250 @@
+{
+  "model": "llama3.2:latest",
+  "retriever": "facebook/contriever-msmarco",
+  "top_k": 10,
+  "questions_evaluated": 4,
+  "exact_match_accuracy": 0.75,
+  "average_answer_f1": 0.75,
+  "results": [
+    {
+      "question_number": 1,
+      "question": "Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.8246554136276245
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.8240362405776978
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7982611656188965
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.7565629482269287
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.748854160308838
+        },
+        {
+          "chunk_index": 1757,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7360312938690186
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.7257046699523926
+        },
+        {
+          "chunk_index": 79,
+          "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+          "score": 1.694502353668213
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6862998008728027
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.6848907470703125
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question": "Which individual is implicated in both inflating the value of a Manhattan apartment to a figure not yet achieved in New York City's real estate history, according to 'Fortune', and is also accused of adjusting this apartment's valuation to compensate for a loss in another asset's worth, as reported by 'The Age'?",
+      "reference_answer": "Donald Trump",
+      "generated_answer": "Donald Trump",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4744,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.561064600944519
+        },
+        {
+          "chunk_index": 4742,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.4711840152740479
+        },
+        {
+          "chunk_index": 4743,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.468775749206543
+        },
+        {
+          "chunk_index": 4754,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.4591305255889893
+        },
+        {
+          "chunk_index": 4746,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.4560303688049316
+        },
+        {
+          "chunk_index": 4745,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.419081449508667
+        },
+        {
+          "chunk_index": 4748,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3868062496185303
+        },
+        {
+          "chunk_index": 4751,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3742215633392334
+        },
+        {
+          "chunk_index": 4753,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3633127212524414
+        },
+        {
+          "chunk_index": 4749,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3332757949829102
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question": "Who is the figure associated with generative AI technology whose departure from OpenAI was considered shocking according to Fortune, and is also the subject of a prevailing theory suggesting a lack of full truthfulness with the board as reported by TechCrunch?",
+      "reference_answer": "Sam Altman",
+      "generated_answer": "Sam Altman",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3187,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8341871500015259
+        },
+        {
+          "chunk_index": 4589,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8260512351989746
+        },
+        {
+          "chunk_index": 3184,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8124264478683472
+        },
+        {
+          "chunk_index": 483,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.8028333187103271
+        },
+        {
+          "chunk_index": 4590,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.7165615558624268
+        },
+        {
+          "chunk_index": 3185,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7059381008148193
+        },
+        {
+          "chunk_index": 3186,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7040352821350098
+        },
+        {
+          "chunk_index": 211,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.7022483348846436
+        },
+        {
+          "chunk_index": 3194,
+          "title": "WTF is going on at OpenAI? We have theories",
+          "score": 1.7000406980514526
+        },
+        {
+          "chunk_index": 210,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.6987806558609009
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question": "Do the TechCrunch article on software companies and the Hacker News article on The Epoch Times both report an increase in revenue related to payment and subscription models, respectively?",
+      "reference_answer": "Yes",
+      "generated_answer": "Insufficient information.",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 740,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4761602878570557
+        },
+        {
+          "chunk_index": 745,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4508252143859863
+        },
+        {
+          "chunk_index": 757,
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "score": 1.4333621263504028
+        },
+        {
+          "chunk_index": 746,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4192451238632202
+        },
+        {
+          "chunk_index": 741,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.405453085899353
+        },
+        {
+          "chunk_index": 4577,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.3938179016113281
+        },
+        {
+          "chunk_index": 742,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.3838251829147339
+        },
+        {
+          "chunk_index": 761,
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "score": 1.3815522193908691
+        },
+        {
+          "chunk_index": 1931,
+          "title": "X plans to use payment, phone and ID verification to stop bots, in addition to the new $1/yr fee",
+          "score": 1.3751254081726074
+        },
+        {
+          "chunk_index": 1169,
+          "title": "OpenAI hosts a dev day, TechCrunch reviews the M3 iMac and MacBook Pro, and Bumble gets a new CEO",
+          "score": 1.3665339946746826
+        }
+      ]
+    }
+  ]
+}

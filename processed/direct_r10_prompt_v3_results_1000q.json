@@ -1,0 +1,3970 @@
+{
+  "model": "llama3:8b",
+  "retriever": "facebook/contriever-msmarco",
+  "top_k": 10,
+  "questions_evaluated": 66,
+  "exact_match_accuracy": 0.48484848484848486,
+  "average_answer_f1": 0.5485858585858585,
+  "results": [
+    {
+      "question_number": 1,
+      "question": "Who is the individual associated with the cryptocurrency industry facing a criminal trial on fraud and conspiracy charges, as reported by both The Verge and TechCrunch, and is accused by prosecutors of committing fraud for personal gain?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.8246554136276245
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.8240361213684082
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7982611656188965
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.7565629482269287
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.748854160308838
+        },
+        {
+          "chunk_index": 1757,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7360312938690186
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.7257046699523926
+        },
+        {
+          "chunk_index": 79,
+          "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+          "score": 1.694502353668213
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6862998008728027
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.684890627861023
+        }
+      ]
+    },
+    {
+      "question_number": 2,
+      "question": "Which individual is implicated in both inflating the value of a Manhattan apartment to a figure not yet achieved in New York City's real estate history, according to 'Fortune', and is also accused of adjusting this apartment's valuation to compensate for a loss in another asset's worth, as reported by 'The Age'?",
+      "reference_answer": "Donald Trump",
+      "generated_answer": "Donald Trump",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4744,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.561064600944519
+        },
+        {
+          "chunk_index": 4742,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.4711841344833374
+        },
+        {
+          "chunk_index": 4743,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.4687756299972534
+        },
+        {
+          "chunk_index": 4754,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.4591305255889893
+        },
+        {
+          "chunk_index": 4746,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.4560303688049316
+        },
+        {
+          "chunk_index": 4745,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.419081449508667
+        },
+        {
+          "chunk_index": 4748,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3868062496185303
+        },
+        {
+          "chunk_index": 4751,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3742215633392334
+        },
+        {
+          "chunk_index": 4753,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3633127212524414
+        },
+        {
+          "chunk_index": 4749,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.3332757949829102
+        }
+      ]
+    },
+    {
+      "question_number": 3,
+      "question": "Who is the figure associated with generative AI technology whose departure from OpenAI was considered shocking according to Fortune, and is also the subject of a prevailing theory suggesting a lack of full truthfulness with the board as reported by TechCrunch?",
+      "reference_answer": "Sam Altman",
+      "generated_answer": "Sam Altman",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3187,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8341870307922363
+        },
+        {
+          "chunk_index": 4589,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8260512351989746
+        },
+        {
+          "chunk_index": 3184,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8124264478683472
+        },
+        {
+          "chunk_index": 483,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.8028333187103271
+        },
+        {
+          "chunk_index": 4590,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.7165615558624268
+        },
+        {
+          "chunk_index": 3185,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7059382200241089
+        },
+        {
+          "chunk_index": 3186,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7040352821350098
+        },
+        {
+          "chunk_index": 211,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.7022483348846436
+        },
+        {
+          "chunk_index": 3194,
+          "title": "WTF is going on at OpenAI? We have theories",
+          "score": 1.7000406980514526
+        },
+        {
+          "chunk_index": 210,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.6987806558609009
+        }
+      ]
+    },
+    {
+      "question_number": 4,
+      "question": "Do the TechCrunch article on software companies and the Hacker News article on The Epoch Times both report an increase in revenue related to payment and subscription models, respectively?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 740,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4761605262756348
+        },
+        {
+          "chunk_index": 745,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4508252143859863
+        },
+        {
+          "chunk_index": 757,
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "score": 1.4333622455596924
+        },
+        {
+          "chunk_index": 746,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.4192450046539307
+        },
+        {
+          "chunk_index": 741,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.405453085899353
+        },
+        {
+          "chunk_index": 4577,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.3938181400299072
+        },
+        {
+          "chunk_index": 742,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.3838250637054443
+        },
+        {
+          "chunk_index": 761,
+          "title": "How the conspiracy-fueled Epoch Times went mainstream and made millions",
+          "score": 1.3815523386001587
+        },
+        {
+          "chunk_index": 1931,
+          "title": "X plans to use payment, phone and ID verification to stop bots, in addition to the new $1/yr fee",
+          "score": 1.3751252889633179
+        },
+        {
+          "chunk_index": 1169,
+          "title": "OpenAI hosts a dev day, TechCrunch reviews the M3 iMac and MacBook Pro, and Bumble gets a new CEO",
+          "score": 1.3665339946746826
+        }
+      ]
+    },
+    {
+      "question_number": 5,
+      "question": "Which online betting platform provides a welcome bonus of up to $1000 in bonus bets for new customers' first losses, runs NBA betting promotions, and is anticipated to extend the same sign-up offer to new users in Vermont, as reported by both CBSSports.com and Sporting News?",
+      "reference_answer": "Caesars Sportsbook",
+      "generated_answer": "Caesars Sportsbook",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 722,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 2.0084691047668457
+        },
+        {
+          "chunk_index": 716,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 2.0072999000549316
+        },
+        {
+          "chunk_index": 714,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9975329637527466
+        },
+        {
+          "chunk_index": 715,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9707393646240234
+        },
+        {
+          "chunk_index": 3452,
+          "title": "The Best NBA Betting Sites and Apps for the 2023-24 Season",
+          "score": 1.9645295143127441
+        },
+        {
+          "chunk_index": 712,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9631093740463257
+        },
+        {
+          "chunk_index": 3451,
+          "title": "The Best NBA Betting Sites and Apps for the 2023-24 Season",
+          "score": 1.9630801677703857
+        },
+        {
+          "chunk_index": 713,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9580700397491455
+        },
+        {
+          "chunk_index": 721,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9448457956314087
+        },
+        {
+          "chunk_index": 717,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.9419171810150146
+        }
+      ]
+    },
+    {
+      "question_number": 6,
+      "question": "Who is the individual alleged to have built a thriving crypto exchange on falsehoods and is accused by the prosecution of committing fraud for personal gain, as reported by both Fortune and TechCrunch?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.8110556602478027
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.806394338607788
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.7793400287628174
+        },
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.760587453842163
+        },
+        {
+          "chunk_index": 1757,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7485530376434326
+        },
+        {
+          "chunk_index": 1625,
+          "title": "Is Sam Bankman-Fried’s defense even trying to win?",
+          "score": 1.7342870235443115
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.7168951034545898
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7159771919250488
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.691327452659607
+        },
+        {
+          "chunk_index": 231,
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "score": 1.6834070682525635
+        }
+      ]
+    },
+    {
+      "question_number": 7,
+      "question": "Does the TechCrunch article on Twitch's subscription revenue split policy indicate a different monetization strategy compared to the TechCrunch article on Beeper's plans for Beeper Mini subscriptions?",
+      "reference_answer": "Yes",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3696,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.9346141815185547
+        },
+        {
+          "chunk_index": 3698,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.8477473258972168
+        },
+        {
+          "chunk_index": 3695,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.8412330150604248
+        },
+        {
+          "chunk_index": 3701,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.7536468505859375
+        },
+        {
+          "chunk_index": 3699,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.7510595321655273
+        },
+        {
+          "chunk_index": 3697,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.748275637626648
+        },
+        {
+          "chunk_index": 3702,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.741081714630127
+        },
+        {
+          "chunk_index": 3744,
+          "title": "Kick streamers consider leaving over CEO’s comments in a sex worker ‘prank’ stream",
+          "score": 1.6950197219848633
+        },
+        {
+          "chunk_index": 3745,
+          "title": "Kick streamers consider leaving over CEO’s comments in a sex worker ‘prank’ stream",
+          "score": 1.6591583490371704
+        },
+        {
+          "chunk_index": 3700,
+          "title": "Twitch’s money guy talks about the revenue split controversy and its monetization long game",
+          "score": 1.657670259475708
+        }
+      ]
+    },
+    {
+      "question_number": 8,
+      "question": "Does 'The New York Times' article attribute the success of the Buffalo Bills' defense to the contributions of Jordan Poyer, while the 'Sporting News' article suggests that the Baltimore Ravens' defense needs to improve before their game against the Cincinnati Bengals?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3103,
+          "title": "Alcoholism, Ayahuasca and the Enlightenment of an N.F.L. Player",
+          "score": 1.76317298412323
+        },
+        {
+          "chunk_index": 3111,
+          "title": "Alcoholism, Ayahuasca and the Enlightenment of an N.F.L. Player",
+          "score": 1.7376044988632202
+        },
+        {
+          "chunk_index": 3112,
+          "title": "Alcoholism, Ayahuasca and the Enlightenment of an N.F.L. Player",
+          "score": 1.6732834577560425
+        },
+        {
+          "chunk_index": 2869,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6553525924682617
+        },
+        {
+          "chunk_index": 1198,
+          "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+          "score": 1.6416559219360352
+        },
+        {
+          "chunk_index": 2865,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6365758180618286
+        },
+        {
+          "chunk_index": 2858,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6332530975341797
+        },
+        {
+          "chunk_index": 2860,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6298396587371826
+        },
+        {
+          "chunk_index": 2859,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6246967315673828
+        },
+        {
+          "chunk_index": 2876,
+          "title": "Bills vs. Bengals live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.6026079654693604
+        }
+      ]
+    },
+    {
+      "question_number": 9,
+      "question": "What is the name of the organization discussed in TechCrunch articles that, despite its financial instability, is recognized for creating ChatGPT, which is both a priority and a platform for ongoing innovations, and is planning to enhance its capabilities with the release of GPT-4 and associated APIs?",
+      "reference_answer": "OpenAI",
+      "generated_answer": "OpenAI",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 372,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.835524082183838
+        },
+        {
+          "chunk_index": 399,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.8053921461105347
+        },
+        {
+          "chunk_index": 371,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.8006870746612549
+        },
+        {
+          "chunk_index": 402,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7826826572418213
+        },
+        {
+          "chunk_index": 380,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.78208589553833
+        },
+        {
+          "chunk_index": 394,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7506365776062012
+        },
+        {
+          "chunk_index": 996,
+          "title": "How OpenAI's ChatGPT has changed the world in just a year",
+          "score": 1.7321619987487793
+        },
+        {
+          "chunk_index": 393,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7176146507263184
+        },
+        {
+          "chunk_index": 400,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7152187824249268
+        },
+        {
+          "chunk_index": 401,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.7039704322814941
+        }
+      ]
+    },
+    {
+      "question_number": 10,
+      "question": "Which company, as reported by both TechCrunch and The Verge, has spent billions to maintain its default search engine status on various platforms and is also accused of harming news publishers’ revenue through its business practices?",
+      "reference_answer": "Google",
+      "generated_answer": "Google",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.693152666091919
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.687750220298767
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6645715236663818
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.6605193614959717
+        },
+        {
+          "chunk_index": 245,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.596376895904541
+        },
+        {
+          "chunk_index": 237,
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "score": 1.5829272270202637
+        },
+        {
+          "chunk_index": 1057,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.5505790710449219
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.5486997365951538
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.5460524559020996
+        },
+        {
+          "chunk_index": 2375,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.545649766921997
+        }
+      ]
+    },
+    {
+      "question_number": 11,
+      "question": "Considering the information from a BBC article detailing Sridevi's achievements in the Indian film industry and a Times of India report on her posthumous honors, which single character from a film portrayed by Sridevi has been recognized for its cultural impact and has also been commemorated with a special award after her passing?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1348,
+          "title": "The obsessive tormenter who made professors’ lives miserable",
+          "score": 1.2021822929382324
+        },
+        {
+          "chunk_index": 1347,
+          "title": "The obsessive tormenter who made professors’ lives miserable",
+          "score": 1.193636178970337
+        },
+        {
+          "chunk_index": 3147,
+          "title": "Watch great noir this Noirvember",
+          "score": 1.181199312210083
+        },
+        {
+          "chunk_index": 1679,
+          "title": "The Halloween Countdown: 31 days of horror to watch",
+          "score": 1.1775975227355957
+        },
+        {
+          "chunk_index": 970,
+          "title": "Mattel slammed for ‘inaccurate’ Cherokee Barbie",
+          "score": 1.1767098903656006
+        },
+        {
+          "chunk_index": 5367,
+          "title": "The best comedies you’ll find on streaming right now",
+          "score": 1.163849949836731
+        },
+        {
+          "chunk_index": 2783,
+          "title": "‘I see myself as a royal’: artist Vincent Namatjira on colonialism, satire and his great-grandfather’s legacy",
+          "score": 1.1589224338531494
+        },
+        {
+          "chunk_index": 5366,
+          "title": "The best comedies you’ll find on streaming right now",
+          "score": 1.1557477712631226
+        },
+        {
+          "chunk_index": 1349,
+          "title": "The obsessive tormenter who made professors’ lives miserable",
+          "score": 1.1477949619293213
+        },
+        {
+          "chunk_index": 3286,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.1423659324645996
+        }
+      ]
+    },
+    {
+      "question_number": 12,
+      "question": "Does 'The Age' article suggest that Australia's Davis Cup team is aiming for an improvement in their performance compared to the previous year, while the 'Sporting News' article indicates that the South Africa national rugby team has already achieved an improvement to reach the Rugby World Cup semi-finals?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1701,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.6148756742477417
+        },
+        {
+          "chunk_index": 1698,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.55338454246521
+        },
+        {
+          "chunk_index": 3764,
+          "title": "Eddie Jones says he needs to ‘give myself an uppercut’ but ‘100 percent’ committed to coaching Wallabies",
+          "score": 1.5522258281707764
+        },
+        {
+          "chunk_index": 2914,
+          "title": "Liverpool vs Everton begins epic Saturday with World Cup semi-final as well as Chelsea vs Arsenal – and it could end with a bang",
+          "score": 1.5470973253250122
+        },
+        {
+          "chunk_index": 1696,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.5409958362579346
+        },
+        {
+          "chunk_index": 1309,
+          "title": "UK View: ‘A bridge too far’ – Boycott, former greats tear into ‘dysfunctional’ Poms with World Cup defence all but dead",
+          "score": 1.5246437788009644
+        },
+        {
+          "chunk_index": 1695,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.5173734426498413
+        },
+        {
+          "chunk_index": 1700,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.5141198635101318
+        },
+        {
+          "chunk_index": 4111,
+          "title": "‘Biggest win of my career’: De Minaur, Popyrin power Australia into Davis Cup final",
+          "score": 1.512939214706421
+        },
+        {
+          "chunk_index": 4108,
+          "title": "‘Biggest win of my career’: De Minaur, Popyrin power Australia into Davis Cup final",
+          "score": 1.512063980102539
+        }
+      ]
+    },
+    {
+      "question_number": 13,
+      "question": "After the TechCrunch report on October 7, 2023, concerning Dave Clark's comments on Flexport, and the subsequent TechCrunch article on October 30, 2023, regarding Ryan Petersen's actions at Flexport, was there a change in the nature of the events reported?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4808,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.2195372581481934
+        },
+        {
+          "chunk_index": 4814,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.1640729904174805
+        },
+        {
+          "chunk_index": 4813,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.1372933387756348
+        },
+        {
+          "chunk_index": 4819,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.1223630905151367
+        },
+        {
+          "chunk_index": 4816,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.1201400756835938
+        },
+        {
+          "chunk_index": 4806,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.119318962097168
+        },
+        {
+          "chunk_index": 4812,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.1157710552215576
+        },
+        {
+          "chunk_index": 4809,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.0794663429260254
+        },
+        {
+          "chunk_index": 4817,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.0453081130981445
+        },
+        {
+          "chunk_index": 4811,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 2.018012285232544
+        }
+      ]
+    },
+    {
+      "question_number": 14,
+      "question": "What is the first letter of the name of the company that, according to an article from The Financial Times, received the most European patents in 2021, and is also mentioned in a Bloomberg article as having faced a significant legal challenge at the European Patent Office over one of its key patents?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Amazon",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 5051,
+          "title": "EU lawmakers bag late night deal on ‘global first’ AI rules",
+          "score": 1.3568792343139648
+        },
+        {
+          "chunk_index": 1551,
+          "title": "Elon Musk’s X faces first DSA probe in EU over illegal content risks, moderation, transparency and deceptive UX design",
+          "score": 1.302831768989563
+        },
+        {
+          "chunk_index": 5052,
+          "title": "EU lawmakers bag late night deal on ‘global first’ AI rules",
+          "score": 1.2962102890014648
+        },
+        {
+          "chunk_index": 2622,
+          "title": "Nobel Prize winner shocked by early morning phone call from Sweden: 'It was ringing during the night, but I didn’t answer it because I’m trying to get some sleep, basically'",
+          "score": 1.2698533535003662
+        },
+        {
+          "chunk_index": 3433,
+          "title": "8 predictions for AI in 2024",
+          "score": 1.2630820274353027
+        },
+        {
+          "chunk_index": 3222,
+          "title": "Earnings week ahead: Amazon, Microsoft, Alphabet, Meta, Ford, GM and more",
+          "score": 1.2394604682922363
+        },
+        {
+          "chunk_index": 5053,
+          "title": "EU lawmakers bag late night deal on ‘global first’ AI rules",
+          "score": 1.2391290664672852
+        },
+        {
+          "chunk_index": 5055,
+          "title": "EU lawmakers bag late night deal on ‘global first’ AI rules",
+          "score": 1.232377529144287
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.2251769304275513
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.2135066986083984
+        }
+      ]
+    },
+    {
+      "question_number": 15,
+      "question": "Does 'The Independent - Life and Style' article suggesting Prince William's emotional state regarding Princess Diana's death align with the same publication's depiction of the events leading up to her death in 'The Crown season six'?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2651,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.8738664388656616
+        },
+        {
+          "chunk_index": 2652,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.8676586151123047
+        },
+        {
+          "chunk_index": 2653,
+          "title": "Fans react to most ‘heartbreaking’ scene in The Crown",
+          "score": 1.8645236492156982
+        },
+        {
+          "chunk_index": 2645,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.8466130495071411
+        },
+        {
+          "chunk_index": 2650,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.7698590755462646
+        },
+        {
+          "chunk_index": 2656,
+          "title": "Fans react to most ‘heartbreaking’ scene in The Crown",
+          "score": 1.7189030647277832
+        },
+        {
+          "chunk_index": 2649,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.7012109756469727
+        },
+        {
+          "chunk_index": 2655,
+          "title": "Fans react to most ‘heartbreaking’ scene in The Crown",
+          "score": 1.688690185546875
+        },
+        {
+          "chunk_index": 2648,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.6751885414123535
+        },
+        {
+          "chunk_index": 2647,
+          "title": "The Crown: What is fact and what is fiction on season 6?",
+          "score": 1.6676545143127441
+        }
+      ]
+    },
+    {
+      "question_number": 16,
+      "question": "Which entity is currently engaged with Amazon to address competition concerns, facilitating dialogue with consumer groups against Meta, deploying staff within its AI Office for future regulations, and has previously focused on illegal content and disinformation issues related to the Israel-Hamas war, as reported by TechCrunch?",
+      "reference_answer": "European Commission",
+      "generated_answer": "EU",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3208,
+          "title": "Meta says it’s prioritizing livestreaming checks during Israel-Hamas war",
+          "score": 1.8411779403686523
+        },
+        {
+          "chunk_index": 1057,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.7939972877502441
+        },
+        {
+          "chunk_index": 1064,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.7815353870391846
+        },
+        {
+          "chunk_index": 1066,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.7736186981201172
+        },
+        {
+          "chunk_index": 1063,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.7311415672302246
+        },
+        {
+          "chunk_index": 310,
+          "title": "Amazon’s iRobot purchase sucks up formal competition concerns in EU",
+          "score": 1.7201154232025146
+        },
+        {
+          "chunk_index": 1059,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.7184979915618896
+        },
+        {
+          "chunk_index": 3206,
+          "title": "Meta says it’s prioritizing livestreaming checks during Israel-Hamas war",
+          "score": 1.7119148969650269
+        },
+        {
+          "chunk_index": 171,
+          "title": "After warning, the EU opens investigation into X over alleged disinformation",
+          "score": 1.7037169933319092
+        },
+        {
+          "chunk_index": 1406,
+          "title": "European consumer groups band together to fight Meta’s self-serving ad-free sub — branding it ‘unfair’ and ‘illegal’",
+          "score": 1.6929147243499756
+        }
+      ]
+    },
+    {
+      "question_number": 17,
+      "question": "Which company, known for its dominance in the e-reader space and for offering exclusive invite-only deals during sales events, faced a stock decline due to an antitrust lawsuit reported by 'The Sydney Morning Herald' and discussed by sellers in a 'Cnbc | World Business News Leader' article?",
+      "reference_answer": "Amazon",
+      "generated_answer": "Amazon",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 744,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.5572397708892822
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.5192921161651611
+        },
+        {
+          "chunk_index": 3226,
+          "title": "Earnings week ahead: Amazon, Microsoft, Alphabet, Meta, Ford, GM and more",
+          "score": 1.4887056350708008
+        },
+        {
+          "chunk_index": 12,
+          "title": "Amazon sellers sound off on the FTC's 'long-overdue' antitrust case",
+          "score": 1.4864420890808105
+        },
+        {
+          "chunk_index": 17,
+          "title": "Amazon sellers sound off on the FTC's 'long-overdue' antitrust case",
+          "score": 1.4864046573638916
+        },
+        {
+          "chunk_index": 3221,
+          "title": "Earnings week ahead: Amazon, Microsoft, Alphabet, Meta, Ford, GM and more",
+          "score": 1.485492467880249
+        },
+        {
+          "chunk_index": 310,
+          "title": "Amazon’s iRobot purchase sucks up formal competition concerns in EU",
+          "score": 1.485433578491211
+        },
+        {
+          "chunk_index": 1726,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.4851857423782349
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.4770774841308594
+        },
+        {
+          "chunk_index": 16,
+          "title": "Amazon sellers sound off on the FTC's 'long-overdue' antitrust case",
+          "score": 1.4661979675292969
+        }
+      ]
+    },
+    {
+      "question_number": 18,
+      "question": "Was there no change in the portrayal of Google's influence on the digital ecosystem between the report from The Verge on Google's impact on the internet's appearance published on November 1, 2023, and the report from TechCrunch on a class action antitrust suit against Google published later?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8075051307678223
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.80294930934906
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.794183373451233
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.7627973556518555
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.760923981666565
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.759798526763916
+        },
+        {
+          "chunk_index": 110,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.755300760269165
+        },
+        {
+          "chunk_index": 244,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.7314624786376953
+        },
+        {
+          "chunk_index": 2377,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.7199033498764038
+        },
+        {
+          "chunk_index": 2378,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6945236921310425
+        }
+      ]
+    },
+    {
+      "question_number": 19,
+      "question": "Considering the features highlighted in an article from The Verge about the iPhone 13's camera system and the battery life improvements mentioned in a piece by CNET, which model of the iPhone 13 series, represented by a single Roman numeral, was noted for having the best combination of both attributes?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 5169,
+          "title": "54 Best Apple Black Friday Deals (2023): iPad, Apple Watch, AirPods",
+          "score": 1.49853515625
+        },
+        {
+          "chunk_index": 3088,
+          "title": "These Are Our Favorite Walmart Cyber Monday Deals",
+          "score": 1.479726791381836
+        },
+        {
+          "chunk_index": 4714,
+          "title": "Apple 16-inch M3 Max MacBook Pro review: A desktop among laptops",
+          "score": 1.4365592002868652
+        },
+        {
+          "chunk_index": 4713,
+          "title": "Apple 16-inch M3 Max MacBook Pro review: A desktop among laptops",
+          "score": 1.4176902770996094
+        },
+        {
+          "chunk_index": 5168,
+          "title": "54 Best Apple Black Friday Deals (2023): iPad, Apple Watch, AirPods",
+          "score": 1.4135167598724365
+        },
+        {
+          "chunk_index": 4419,
+          "title": "The Apple Watch’s double tap gesture points at a new way to use wearables",
+          "score": 1.4050118923187256
+        },
+        {
+          "chunk_index": 5423,
+          "title": "41 Best Prime Day Apple Deals (2023)",
+          "score": 1.4045518636703491
+        },
+        {
+          "chunk_index": 5158,
+          "title": "54 Best Apple Black Friday Deals (2023): iPad, Apple Watch, AirPods",
+          "score": 1.4043173789978027
+        },
+        {
+          "chunk_index": 5412,
+          "title": "41 Best Prime Day Apple Deals (2023)",
+          "score": 1.3994114398956299
+        },
+        {
+          "chunk_index": 896,
+          "title": "The best Apple Cyber Monday deals of 2023: Save on AirPods, iPads, Apple Watches and more",
+          "score": 1.398753046989441
+        }
+      ]
+    },
+    {
+      "question_number": 20,
+      "question": "Does the Sporting News article suggest that streaming services do not require a subscription for viewing the Cowboys vs. 49ers game, in contrast to the Polygon article's claim about film availability on streaming platforms without a subscription?",
+      "reference_answer": "no",
+      "generated_answer": "No",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2724,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.5931156873703003
+        },
+        {
+          "chunk_index": 2723,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.472435474395752
+        },
+        {
+          "chunk_index": 2714,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.41298508644104
+        },
+        {
+          "chunk_index": 2719,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.4068989753723145
+        },
+        {
+          "chunk_index": 2721,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.396726131439209
+        },
+        {
+          "chunk_index": 2722,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.3912222385406494
+        },
+        {
+          "chunk_index": 1859,
+          "title": "NASCAR Might Have Just Saved Themselves With the $7.7 Billion Media Rights Deal",
+          "score": 1.3887561559677124
+        },
+        {
+          "chunk_index": 2825,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.3836400508880615
+        },
+        {
+          "chunk_index": 2718,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.3819608688354492
+        },
+        {
+          "chunk_index": 2715,
+          "title": "Cowboys vs. 49ers live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.3677101135253906
+        }
+      ]
+    },
+    {
+      "question_number": 21,
+      "question": "Considering the information from an article in The New York Times about the band Used To Be Young's latest tour and a review in Rolling Stone discussing the standout performance of a particular member during a recent concert, which member of Used To Be Young was highlighted for their exceptional solo during the tour's opening night and also plays the instrument that begins with the letter 'B'?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3650,
+          "title": "At Christmas, Don McLean sings the praises of 'Silent Night,' other holiday classics: 'My mother's favorite'",
+          "score": 1.2765499353408813
+        },
+        {
+          "chunk_index": 2588,
+          "title": "Taylor Swift's 1989: The stories behind her biggest album",
+          "score": 1.2501935958862305
+        },
+        {
+          "chunk_index": 2586,
+          "title": "Taylor Swift's 1989: The stories behind her biggest album",
+          "score": 1.2134430408477783
+        },
+        {
+          "chunk_index": 1282,
+          "title": "Young Taylor Swift fans go viral for struggling to open the star's CD: 'Making me laugh'",
+          "score": 1.2121164798736572
+        },
+        {
+          "chunk_index": 360,
+          "title": "Taylor Swift is Time’s Person of the Year",
+          "score": 1.2104663848876953
+        },
+        {
+          "chunk_index": 3649,
+          "title": "At Christmas, Don McLean sings the praises of 'Silent Night,' other holiday classics: 'My mother's favorite'",
+          "score": 1.2003594636917114
+        },
+        {
+          "chunk_index": 2587,
+          "title": "Taylor Swift's 1989: The stories behind her biggest album",
+          "score": 1.1999363899230957
+        },
+        {
+          "chunk_index": 2583,
+          "title": "Taylor Swift's 1989: The stories behind her biggest album",
+          "score": 1.1914032697677612
+        },
+        {
+          "chunk_index": 3290,
+          "title": "Craig Morgan shares how he balances music career and serving his country: 'I have never quit being a soldier'",
+          "score": 1.1888335943222046
+        },
+        {
+          "chunk_index": 1283,
+          "title": "Young Taylor Swift fans go viral for struggling to open the star's CD: 'Making me laugh'",
+          "score": 1.1879096031188965
+        }
+      ]
+    },
+    {
+      "question_number": 22,
+      "question": "Has the advice provided by Sporting News to bettors regarding the evaluation of betting opportunities and offers involved reading requirements, going with the favored Eagles, and focusing on hype between the reports published on September 28, 2023, and December 18, 2023?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2024,
+          "title": "Best Golf Betting Sites and Apps - Top Sportsbooks for Golf 2023",
+          "score": 1.5037617683410645
+        },
+        {
+          "chunk_index": 1992,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.496062994003296
+        },
+        {
+          "chunk_index": 1989,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.4764550924301147
+        },
+        {
+          "chunk_index": 3045,
+          "title": "N.F.L. Executives on the Biggest Questions Facing Super Bowl Contenders",
+          "score": 1.4746015071868896
+        },
+        {
+          "chunk_index": 2635,
+          "title": "MLB Betting Sites & Apps - The Best Baseball Sportsbooks 2023",
+          "score": 1.462801218032837
+        },
+        {
+          "chunk_index": 700,
+          "title": "2023 Kentucky online sports betting sites: Best legal sportsbooks, promos, bonuses, mobile apps, how to bet",
+          "score": 1.4610941410064697
+        },
+        {
+          "chunk_index": 3456,
+          "title": "The Best NBA Betting Sites and Apps for the 2023-24 Season",
+          "score": 1.4603639841079712
+        },
+        {
+          "chunk_index": 1436,
+          "title": "Dolphins vs. Eagles live score, updates, highlights from NFL 'Sunday Night Football' game",
+          "score": 1.4582812786102295
+        },
+        {
+          "chunk_index": 1990,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.4571497440338135
+        },
+        {
+          "chunk_index": 2023,
+          "title": "Best Golf Betting Sites and Apps - Top Sportsbooks for Golf 2023",
+          "score": 1.4564080238342285
+        }
+      ]
+    },
+    {
+      "question_number": 23,
+      "question": "Which company, covered by Engadget and Polygon, is set to release an updated gaming hardware with over 300 improvements on November 16, emphasizing a singular performance target for developers?",
+      "reference_answer": "Valve",
+      "generated_answer": "Valve",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3343,
+          "title": "The Steam Deck OLED improves much more than its screen",
+          "score": 1.5387202501296997
+        },
+        {
+          "chunk_index": 5215,
+          "title": "Earnings week ahead: DocuSign, NIO, Broadcom, GameStop and more",
+          "score": 1.402586817741394
+        },
+        {
+          "chunk_index": 2358,
+          "title": "The best October Prime Day gaming deals",
+          "score": 1.3759429454803467
+        },
+        {
+          "chunk_index": 4716,
+          "title": "Apple 16-inch M3 Max MacBook Pro review: A desktop among laptops",
+          "score": 1.3591785430908203
+        },
+        {
+          "chunk_index": 5213,
+          "title": "Earnings week ahead: DocuSign, NIO, Broadcom, GameStop and more",
+          "score": 1.3385019302368164
+        },
+        {
+          "chunk_index": 2088,
+          "title": "The best video games of the year so far",
+          "score": 1.3338046073913574
+        },
+        {
+          "chunk_index": 3336,
+          "title": "The Steam Deck OLED improves much more than its screen",
+          "score": 1.321225881576538
+        },
+        {
+          "chunk_index": 416,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.3004637956619263
+        },
+        {
+          "chunk_index": 414,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.2969474792480469
+        },
+        {
+          "chunk_index": 5459,
+          "title": "Super Mario Bros. Wonder is a perfect end for the Switch",
+          "score": 1.2956817150115967
+        }
+      ]
+    },
+    {
+      "question_number": 24,
+      "question": "Was there inconsistency in Jada Pinkett Smith's statements regarding what she learned from her children after The Independent - Life and Style's report on her views on self-acceptance published at 13:41:30, and before The Independent - Life and Style's subsequent report on the same topic published at 15:48:10 on the same day?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1604,
+          "title": "Will Smith speaks to crowd about ‘tumultuous’ relationship with Jada Pinkett Smith",
+          "score": 1.9440791606903076
+        },
+        {
+          "chunk_index": 134,
+          "title": "A timeline of Will Smith and Jada Pinkett Smith’s relationship amid separation",
+          "score": 1.8821378946304321
+        },
+        {
+          "chunk_index": 3385,
+          "title": "Jada Pinkett Smith reveals why she and Will Smith never signed a prenup",
+          "score": 1.8601760864257812
+        },
+        {
+          "chunk_index": 139,
+          "title": "A timeline of Will Smith and Jada Pinkett Smith’s relationship amid separation",
+          "score": 1.8428521156311035
+        },
+        {
+          "chunk_index": 279,
+          "title": "Jada Pinkett Smith and Will Smith have been separated since 2016 - when should couples just get divorced?",
+          "score": 1.8053869009017944
+        },
+        {
+          "chunk_index": 140,
+          "title": "A timeline of Will Smith and Jada Pinkett Smith’s relationship amid separation",
+          "score": 1.739109754562378
+        },
+        {
+          "chunk_index": 138,
+          "title": "A timeline of Will Smith and Jada Pinkett Smith’s relationship amid separation",
+          "score": 1.7368714809417725
+        },
+        {
+          "chunk_index": 3388,
+          "title": "Jada Pinkett Smith reveals why she and Will Smith never signed a prenup",
+          "score": 1.7340307235717773
+        },
+        {
+          "chunk_index": 280,
+          "title": "Jada Pinkett Smith and Will Smith have been separated since 2016 - when should couples just get divorced?",
+          "score": 1.7080621719360352
+        },
+        {
+          "chunk_index": 1607,
+          "title": "Will Smith speaks to crowd about ‘tumultuous’ relationship with Jada Pinkett Smith",
+          "score": 1.7029237747192383
+        }
+      ]
+    },
+    {
+      "question_number": 25,
+      "question": "Considering the economic forecasts from a Bloomberg article and the archaeological discoveries reported by Al Jazeera, which country in North Africa, expected to see a significant rise in GDP, also recently unveiled an ancient artifact believed to be from the reign of a pharaoh whose name begins with the letter \"T\"?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1262,
+          "title": "\"There are no sacred numbers\"",
+          "score": 1.475357174873352
+        },
+        {
+          "chunk_index": 1257,
+          "title": "\"There are no sacred numbers\"",
+          "score": 1.413522720336914
+        },
+        {
+          "chunk_index": 2178,
+          "title": "'Too big to fail' Egypt faces economic crisis but has an anti-Gaza refugee policy. Israel and the U.S. hope that will change",
+          "score": 1.3999767303466797
+        },
+        {
+          "chunk_index": 1259,
+          "title": "\"There are no sacred numbers\"",
+          "score": 1.3495426177978516
+        },
+        {
+          "chunk_index": 1261,
+          "title": "\"There are no sacred numbers\"",
+          "score": 1.3460910320281982
+        },
+        {
+          "chunk_index": 2182,
+          "title": "'Too big to fail' Egypt faces economic crisis but has an anti-Gaza refugee policy. Israel and the U.S. hope that will change",
+          "score": 1.3350095748901367
+        },
+        {
+          "chunk_index": 2179,
+          "title": "'Too big to fail' Egypt faces economic crisis but has an anti-Gaza refugee policy. Israel and the U.S. hope that will change",
+          "score": 1.3295707702636719
+        },
+        {
+          "chunk_index": 2181,
+          "title": "'Too big to fail' Egypt faces economic crisis but has an anti-Gaza refugee policy. Israel and the U.S. hope that will change",
+          "score": 1.3231480121612549
+        },
+        {
+          "chunk_index": 4768,
+          "title": "India to be one of world's fastest growing economies over next decade",
+          "score": 1.3084824085235596
+        },
+        {
+          "chunk_index": 4767,
+          "title": "India to be one of world's fastest growing economies over next decade",
+          "score": 1.3083724975585938
+        }
+      ]
+    },
+    {
+      "question_number": 26,
+      "question": "Was the news about Taylor Swift's relationship with Travis Kelce inconsistent with the later report from The Independent - Life and Style on December 6, 2023?",
+      "reference_answer": "no",
+      "generated_answer": "No",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2881,
+          "title": "Taylor Swift reveals secret start to her relationship with Travis Kelce",
+          "score": 2.1035876274108887
+        },
+        {
+          "chunk_index": 585,
+          "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+          "score": 1.9900518655776978
+        },
+        {
+          "chunk_index": 590,
+          "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+          "score": 1.9751635789871216
+        },
+        {
+          "chunk_index": 589,
+          "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+          "score": 1.9706127643585205
+        },
+        {
+          "chunk_index": 2882,
+          "title": "Taylor Swift reveals secret start to her relationship with Travis Kelce",
+          "score": 1.9692491292953491
+        },
+        {
+          "chunk_index": 593,
+          "title": "Taylor Swift-Travis Kelce timeline: Everything to know about rumored romance between pop star, Chiefs TE",
+          "score": 1.9613012075424194
+        },
+        {
+          "chunk_index": 1752,
+          "title": "Travis Kelce faces backlash after comments about ‘finding a breeder’ resurface amid Taylor Swift romance",
+          "score": 1.9483695030212402
+        },
+        {
+          "chunk_index": 1755,
+          "title": "Travis Kelce faces backlash after comments about ‘finding a breeder’ resurface amid Taylor Swift romance",
+          "score": 1.9482762813568115
+        },
+        {
+          "chunk_index": 154,
+          "title": "Fans spot Travis Kelce wearing Taylor Swift-themed friendship bracelet before she attended his game",
+          "score": 1.943841814994812
+        },
+        {
+          "chunk_index": 156,
+          "title": "Fans spot Travis Kelce wearing Taylor Swift-themed friendship bracelet before she attended his game",
+          "score": 1.9311106204986572
+        }
+      ]
+    },
+    {
+      "question_number": 27,
+      "question": "Has the portrayal of Google's market practices in reports by The Age before October 22, 2023, remained consistent with the depiction in The Verge's coverage of the Epic v. Google case, and with TechCrunch's report on the class action antitrust suit filed against Google?",
+      "reference_answer": "no",
+      "generated_answer": "Yes",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3351,
+          "title": "Epic v. Google, explained",
+          "score": 1.8971970081329346
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8957347869873047
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.8953441381454468
+        },
+        {
+          "chunk_index": 340,
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "score": 1.861328125
+        },
+        {
+          "chunk_index": 3352,
+          "title": "Epic v. Google, explained",
+          "score": 1.8518397808074951
+        },
+        {
+          "chunk_index": 1717,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.835365891456604
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.8272123336791992
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.824427604675293
+        },
+        {
+          "chunk_index": 3350,
+          "title": "Epic v. Google, explained",
+          "score": 1.823296070098877
+        },
+        {
+          "chunk_index": 2906,
+          "title": "The Epic v. Google trial may come down to simple v. complicated",
+          "score": 1.8084577322006226
+        }
+      ]
+    },
+    {
+      "question_number": 28,
+      "question": "Does the TechCrunch article suggest that Amazon's large language model (LLM) is not trained on kids' responses, while The Age article raises concerns about TikTok's pixel collecting data without consent?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1870,
+          "title": "Amazon brings conversational AI to kids with launch of ‘Explore with Alexa’",
+          "score": 1.8055511713027954
+        },
+        {
+          "chunk_index": 1871,
+          "title": "Amazon brings conversational AI to kids with launch of ‘Explore with Alexa’",
+          "score": 1.7522889375686646
+        },
+        {
+          "chunk_index": 1873,
+          "title": "Amazon brings conversational AI to kids with launch of ‘Explore with Alexa’",
+          "score": 1.6593225002288818
+        },
+        {
+          "chunk_index": 1874,
+          "title": "Amazon brings conversational AI to kids with launch of ‘Explore with Alexa’",
+          "score": 1.614997148513794
+        },
+        {
+          "chunk_index": 1872,
+          "title": "Amazon brings conversational AI to kids with launch of ‘Explore with Alexa’",
+          "score": 1.5825834274291992
+        },
+        {
+          "chunk_index": 83,
+          "title": "Sam Altman backs teens’ startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+          "score": 1.5637731552124023
+        },
+        {
+          "chunk_index": 2934,
+          "title": "Meta turned a blind eye to kids on its platforms for years, unredacted lawsuit alleges",
+          "score": 1.5499956607818604
+        },
+        {
+          "chunk_index": 2935,
+          "title": "Meta turned a blind eye to kids on its platforms for years, unredacted lawsuit alleges",
+          "score": 1.5181715488433838
+        },
+        {
+          "chunk_index": 86,
+          "title": "Sam Altman backs teens’ startup, Google unveils the Pixel 8 and TikTok tests an ad-free tier",
+          "score": 1.493110179901123
+        },
+        {
+          "chunk_index": 4232,
+          "title": "Republicans still don’t know how to talk to young voters online",
+          "score": 1.4856748580932617
+        }
+      ]
+    },
+    {
+      "question_number": 29,
+      "question": "Did the report from Cnbc | World Business News Leader on \"Nike's Latin America and Asia Pacific unit\" or the article from Fortune on the \"U.S. home sales price\" both report a decrease in their respective financial figures?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2154,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.8531699180603027
+        },
+        {
+          "chunk_index": 2155,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.755205512046814
+        },
+        {
+          "chunk_index": 2157,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.6873060464859009
+        },
+        {
+          "chunk_index": 2153,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.6750930547714233
+        },
+        {
+          "chunk_index": 2156,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.633495807647705
+        },
+        {
+          "chunk_index": 2158,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.5496153831481934
+        },
+        {
+          "chunk_index": 2152,
+          "title": "Nike misses revenue expectations for the first time in two years, beats on earnings and gross margin",
+          "score": 1.5482913255691528
+        },
+        {
+          "chunk_index": 739,
+          "title": "ASX to open lower; Wall Street falls as the clamp tightens from rising bond yields",
+          "score": 1.3111674785614014
+        },
+        {
+          "chunk_index": 4813,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 1.299074411392212
+        },
+        {
+          "chunk_index": 3493,
+          "title": "Sources: Palo Alto in advanced talks to buy Talon and Dig in a $1B security sweep",
+          "score": 1.2885276079177856
+        }
+      ]
+    },
+    {
+      "question_number": 30,
+      "question": "Did the coverage of ski resorts by 'The Independent - Travel' change after their report on the 'Swiss slopes of Zermatt and pistes of Vail in Colorado' on October 13th, 2023, compared to their subsequent report on 'Tremblant Ski Resort' on October 25th, 2023?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 5125,
+          "title": "7 of the best luxury ski resorts for a five-star experience",
+          "score": 1.881803035736084
+        },
+        {
+          "chunk_index": 5123,
+          "title": "7 of the best luxury ski resorts for a five-star experience",
+          "score": 1.8500945568084717
+        },
+        {
+          "chunk_index": 5122,
+          "title": "7 of the best luxury ski resorts for a five-star experience",
+          "score": 1.816007375717163
+        },
+        {
+          "chunk_index": 5114,
+          "title": "7 of the best ski holidays in Canada",
+          "score": 1.7656943798065186
+        },
+        {
+          "chunk_index": 5115,
+          "title": "7 of the best ski holidays in Canada",
+          "score": 1.6949759721755981
+        },
+        {
+          "chunk_index": 5124,
+          "title": "7 of the best luxury ski resorts for a five-star experience",
+          "score": 1.6693172454833984
+        },
+        {
+          "chunk_index": 5118,
+          "title": "7 of the best ski holidays in Canada",
+          "score": 1.6620885133743286
+        },
+        {
+          "chunk_index": 5112,
+          "title": "7 of the best ski holidays in Canada",
+          "score": 1.625659465789795
+        },
+        {
+          "chunk_index": 5120,
+          "title": "7 of the best ski holidays in Canada",
+          "score": 1.5976847410202026
+        },
+        {
+          "chunk_index": 5126,
+          "title": "7 of the best luxury ski resorts for a five-star experience",
+          "score": 1.5654981136322021
+        }
+      ]
+    },
+    {
+      "question_number": 31,
+      "question": "Which company, according to articles from TechCrunch and The Verge, not only spent billions to maintain its default search engine status across various devices and platforms but was also considered by a major tech competitor as the only valid option for such services at the time of their deal, and is simultaneously facing a class action lawsuit for allegedly harming news publishers' revenues through its business practices?",
+      "reference_answer": "Google",
+      "generated_answer": "Google",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.9084359407424927
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8581749200820923
+        },
+        {
+          "chunk_index": 245,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8021398782730103
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.7914490699768066
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.7863490581512451
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.7700450420379639
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.7687151432037354
+        },
+        {
+          "chunk_index": 237,
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "score": 1.7561249732971191
+        },
+        {
+          "chunk_index": 100,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.7200592756271362
+        },
+        {
+          "chunk_index": 98,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.7056176662445068
+        }
+      ]
+    },
+    {
+      "question_number": 32,
+      "question": "Do 'The Verge' and 'Engadget' articles both suggest that 'Consumers' have guides or opportunities to make better purchasing decisions, while 'TechCrunch' discusses 'Consumers' desire for a new model in a different sector?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1169,
+          "title": "OpenAI hosts a dev day, TechCrunch reviews the M3 iMac and MacBook Pro, and Bumble gets a new CEO",
+          "score": 1.3774259090423584
+        },
+        {
+          "chunk_index": 4577,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.3718111515045166
+        },
+        {
+          "chunk_index": 1407,
+          "title": "European consumer groups band together to fight Meta’s self-serving ad-free sub — branding it ‘unfair’ and ‘illegal’",
+          "score": 1.3502659797668457
+        },
+        {
+          "chunk_index": 1062,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.3177903890609741
+        },
+        {
+          "chunk_index": 2434,
+          "title": "8 authors and their 8 gift book picks for this holiday season",
+          "score": 1.3149025440216064
+        },
+        {
+          "chunk_index": 1727,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.3142082691192627
+        },
+        {
+          "chunk_index": 345,
+          "title": "Founders, are events useful?",
+          "score": 1.2999775409698486
+        },
+        {
+          "chunk_index": 2920,
+          "title": "Deft is building e-commerce search to help you find the right product quickly",
+          "score": 1.2988314628601074
+        },
+        {
+          "chunk_index": 2921,
+          "title": "Deft is building e-commerce search to help you find the right product quickly",
+          "score": 1.2986000776290894
+        },
+        {
+          "chunk_index": 101,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.2969996929168701
+        }
+      ]
+    },
+    {
+      "question_number": 33,
+      "question": "Who is the individual associated with OpenAI, recognized for both his vision of AI agents and his generosity, and has made headlines in both Fortune and TechCrunch for his controversial departure from the company?",
+      "reference_answer": "Sam Altman",
+      "generated_answer": "Sam Altman",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4592,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8968578577041626
+        },
+        {
+          "chunk_index": 4590,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8904666900634766
+        },
+        {
+          "chunk_index": 4589,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8626717329025269
+        },
+        {
+          "chunk_index": 3184,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8479626178741455
+        },
+        {
+          "chunk_index": 3183,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8409571647644043
+        },
+        {
+          "chunk_index": 3187,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8381319046020508
+        },
+        {
+          "chunk_index": 483,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.8379374742507935
+        },
+        {
+          "chunk_index": 3185,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8230229616165161
+        },
+        {
+          "chunk_index": 4593,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8006901741027832
+        },
+        {
+          "chunk_index": 3825,
+          "title": "A timeline of Sam Altman’s firing from OpenAI — and the fallout",
+          "score": 1.7892192602157593
+        }
+      ]
+    },
+    {
+      "question_number": 34,
+      "question": "What company, recently reported by TechCrunch to have made significant profitability in the third quarter, has also faced criticism for not adequately preventing incidents and streamlining driver sign-ups, despite being aware of safety concerns since 2014 and introducing new app features to address them?",
+      "reference_answer": "Uber",
+      "generated_answer": "Uber",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4577,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.7654763460159302
+        },
+        {
+          "chunk_index": 4578,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.5968321561813354
+        },
+        {
+          "chunk_index": 1169,
+          "title": "OpenAI hosts a dev day, TechCrunch reviews the M3 iMac and MacBook Pro, and Bumble gets a new CEO",
+          "score": 1.5687248706817627
+        },
+        {
+          "chunk_index": 3216,
+          "title": "Uber’s Q3 numbers include impressive profitability gains, slower-than-expected growth",
+          "score": 1.5625611543655396
+        },
+        {
+          "chunk_index": 3201,
+          "title": "Google fakes an AI demo, Grand Theft Auto VI goes viral and Spotify cuts jobs",
+          "score": 1.5578579902648926
+        },
+        {
+          "chunk_index": 4821,
+          "title": "Cruise hits the brakes on driverless, UAW makes progress and more EV backpedaling",
+          "score": 1.5478792190551758
+        },
+        {
+          "chunk_index": 1964,
+          "title": "If your startup doesn’t seem impossible at first, it’s not hard enough",
+          "score": 1.5322333574295044
+        },
+        {
+          "chunk_index": 3218,
+          "title": "Uber’s Q3 numbers include impressive profitability gains, slower-than-expected growth",
+          "score": 1.53074049949646
+        },
+        {
+          "chunk_index": 346,
+          "title": "Founders, are events useful?",
+          "score": 1.5268372297286987
+        },
+        {
+          "chunk_index": 411,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.51617431640625
+        }
+      ]
+    },
+    {
+      "question_number": 35,
+      "question": "After TechCrunch reported on October 31, 2023, about Google's financial strategies to maintain its search engine dominance, and again on December 15, 2023, about a class action antitrust suit filed against Google, was there inconsistency in the portrayal of Google's competitive practices according to TechCrunch?",
+      "reference_answer": "no",
+      "generated_answer": "Yes",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 110,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.89508056640625
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8790589570999146
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8687318563461304
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.8684725761413574
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.8653395175933838
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.857183575630188
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.7827544212341309
+        },
+        {
+          "chunk_index": 105,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.781644582748413
+        },
+        {
+          "chunk_index": 245,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.7581796646118164
+        },
+        {
+          "chunk_index": 2377,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.7408711910247803
+        }
+      ]
+    },
+    {
+      "question_number": 36,
+      "question": "Does the TechCrunch article on GPT-4 suggest a greater ease of prompting toxic output compared to other models, while the TechCrunch article on Meta's open source AI approach indicate concerns of potential danger and disinformation from industry competitors like Google, OpenAI, and Microsoft?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 484,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 2.1655473709106445
+        },
+        {
+          "chunk_index": 485,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.9826215505599976
+        },
+        {
+          "chunk_index": 389,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.9554541110992432
+        },
+        {
+          "chunk_index": 2665,
+          "title": "Meta and IBM form an AI Alliance, but to what end?",
+          "score": 1.9472954273223877
+        },
+        {
+          "chunk_index": 486,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.93630850315094
+        },
+        {
+          "chunk_index": 2508,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.9209479093551636
+        },
+        {
+          "chunk_index": 394,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.9187941551208496
+        },
+        {
+          "chunk_index": 386,
+          "title": "ChatGPT: Everything you need to know about the AI-powered chatbot",
+          "score": 1.8988736867904663
+        },
+        {
+          "chunk_index": 2507,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.8884248733520508
+        },
+        {
+          "chunk_index": 483,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.8768501281738281
+        }
+      ]
+    },
+    {
+      "question_number": 37,
+      "question": "Does the Sporting News article claim that Caesars Sportsbook offers a cash-out option for early bet settlement, while the CBSSports.com and the second Sporting News article both focus on Caesars Sportsbook providing a welcome bonus offer for new customers?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 721,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.796252965927124
+        },
+        {
+          "chunk_index": 1989,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.7959439754486084
+        },
+        {
+          "chunk_index": 623,
+          "title": "NBA Rookie of the Year Odds - Wembanyama the early favorite",
+          "score": 1.7391908168792725
+        },
+        {
+          "chunk_index": 1990,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.719873309135437
+        },
+        {
+          "chunk_index": 3967,
+          "title": "Best sports betting promo codes for college basketball: Claim $5,000+ in bonuses from Caesars Sportsbook, BetMGM, Bet365, FanDuel, DraftKings, BetRivers",
+          "score": 1.7172536849975586
+        },
+        {
+          "chunk_index": 722,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.7115741968154907
+        },
+        {
+          "chunk_index": 699,
+          "title": "2023 Kentucky online sports betting sites: Best legal sportsbooks, promos, bonuses, mobile apps, how to bet",
+          "score": 1.6896488666534424
+        },
+        {
+          "chunk_index": 696,
+          "title": "2023 Kentucky online sports betting sites: Best legal sportsbooks, promos, bonuses, mobile apps, how to bet",
+          "score": 1.6816608905792236
+        },
+        {
+          "chunk_index": 2019,
+          "title": "Best Golf Betting Sites and Apps - Top Sportsbooks for Golf 2023",
+          "score": 1.6500918865203857
+        },
+        {
+          "chunk_index": 3966,
+          "title": "Best sports betting promo codes for college basketball: Claim $5,000+ in bonuses from Caesars Sportsbook, BetMGM, Bet365, FanDuel, DraftKings, BetRivers",
+          "score": 1.6405748128890991
+        }
+      ]
+    },
+    {
+      "question_number": 38,
+      "question": "Does the TechCrunch article on generative AI in the enterprise suggest that CIOs are more cautious in their AI adoption strategy compared to the belief of business leaders mentioned in another TechCrunch article, who think AI will be essential for all businesses within five years?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1611,
+          "title": "When it comes to generative AI in the enterprise, CIOs are taking it slow",
+          "score": 2.0594828128814697
+        },
+        {
+          "chunk_index": 1610,
+          "title": "When it comes to generative AI in the enterprise, CIOs are taking it slow",
+          "score": 2.030381202697754
+        },
+        {
+          "chunk_index": 1609,
+          "title": "When it comes to generative AI in the enterprise, CIOs are taking it slow",
+          "score": 2.021437168121338
+        },
+        {
+          "chunk_index": 1613,
+          "title": "When it comes to generative AI in the enterprise, CIOs are taking it slow",
+          "score": 1.9933876991271973
+        },
+        {
+          "chunk_index": 1612,
+          "title": "When it comes to generative AI in the enterprise, CIOs are taking it slow",
+          "score": 1.9752157926559448
+        },
+        {
+          "chunk_index": 1621,
+          "title": "6 VCs explain how startups can capture and defend marketshare in the AI era",
+          "score": 1.8176156282424927
+        },
+        {
+          "chunk_index": 1620,
+          "title": "6 VCs explain how startups can capture and defend marketshare in the AI era",
+          "score": 1.790664792060852
+        },
+        {
+          "chunk_index": 2508,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.761941909790039
+        },
+        {
+          "chunk_index": 991,
+          "title": "Biden’s AI EO hailed as broad, but not deep without legislation to match",
+          "score": 1.7325845956802368
+        },
+        {
+          "chunk_index": 2507,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.6952996253967285
+        }
+      ]
+    },
+    {
+      "question_number": 39,
+      "question": "Considering the information from an article by The Verge and another by Forbes about Sygic, which letter represents both the first character of the European country where Sygic is headquartered and the last character of the name of Sygic's CEO as mentioned in these articles?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "C",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4161,
+          "title": "EU commissioner sidesteps MEPs’ questions about CSAM microtargeting",
+          "score": 1.3649485111236572
+        },
+        {
+          "chunk_index": 3828,
+          "title": "A timeline of Sam Altman’s firing from OpenAI — and the fallout",
+          "score": 1.3555344343185425
+        },
+        {
+          "chunk_index": 418,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.3393580913543701
+        },
+        {
+          "chunk_index": 1964,
+          "title": "If your startup doesn’t seem impossible at first, it’s not hard enough",
+          "score": 1.337350606918335
+        },
+        {
+          "chunk_index": 3201,
+          "title": "Google fakes an AI demo, Grand Theft Auto VI goes viral and Spotify cuts jobs",
+          "score": 1.3313924074172974
+        },
+        {
+          "chunk_index": 174,
+          "title": "After warning, the EU opens investigation into X over alleged disinformation",
+          "score": 1.3179574012756348
+        },
+        {
+          "chunk_index": 411,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.313668966293335
+        },
+        {
+          "chunk_index": 4591,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.311402678489685
+        },
+        {
+          "chunk_index": 304,
+          "title": "There’s something going on with AI startups in France",
+          "score": 1.302070140838623
+        },
+        {
+          "chunk_index": 4814,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 1.2909207344055176
+        }
+      ]
+    },
+    {
+      "question_number": 40,
+      "question": "Considering the information from an article by Forbes about the growth strategies of Pets Best Insurance Services and a report by The Wall Street Journal on the company's recent partnership with a major pet retailer, which letter of the alphabet starts the name of the CEO who has overseen these developments at Pets Best Insurance Services?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3221,
+          "title": "Earnings week ahead: Amazon, Microsoft, Alphabet, Meta, Ford, GM and more",
+          "score": 1.2126113176345825
+        },
+        {
+          "chunk_index": 1964,
+          "title": "If your startup doesn’t seem impossible at first, it’s not hard enough",
+          "score": 1.2116972208023071
+        },
+        {
+          "chunk_index": 748,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.2099969387054443
+        },
+        {
+          "chunk_index": 2659,
+          "title": "WebSummit derailed by founder’s public fight with those supporting Israel in Hamas conflict",
+          "score": 1.2087465524673462
+        },
+        {
+          "chunk_index": 3227,
+          "title": "Earnings week ahead: Amazon, Microsoft, Alphabet, Meta, Ford, GM and more",
+          "score": 1.2059690952301025
+        },
+        {
+          "chunk_index": 4590,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.2047359943389893
+        },
+        {
+          "chunk_index": 5155,
+          "title": "Some of our favorite devices are on sale for Black Friday.",
+          "score": 1.1953012943267822
+        },
+        {
+          "chunk_index": 2438,
+          "title": "8 authors and their 8 gift book picks for this holiday season",
+          "score": 1.1952282190322876
+        },
+        {
+          "chunk_index": 4809,
+          "title": "The inside story of Dave Clark's tumultuous last days at Flexport",
+          "score": 1.189914345741272
+        },
+        {
+          "chunk_index": 745,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.1652822494506836
+        }
+      ]
+    },
+    {
+      "question_number": 41,
+      "question": "Between the TechCrunch report on Google's approach to deepfake election risks and the subsequent TechCrunch report on a news publisher filing an antitrust suit against Google, was there a change in the portrayal of Google's impact on the industry?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2510,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.8436599969863892
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8242754936218262
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8172199726104736
+        },
+        {
+          "chunk_index": 2515,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.8074688911437988
+        },
+        {
+          "chunk_index": 2508,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.8010811805725098
+        },
+        {
+          "chunk_index": 2507,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.7950879335403442
+        },
+        {
+          "chunk_index": 1718,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.7710258960723877
+        },
+        {
+          "chunk_index": 2506,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.7625153064727783
+        },
+        {
+          "chunk_index": 2514,
+          "title": "Deepfake election risks trigger EU call for more generative AI safeguards",
+          "score": 1.7621312141418457
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.757865309715271
+        }
+      ]
+    },
+    {
+      "question_number": 42,
+      "question": "Did The Independent - Sports report on the All Blacks' home victories against Ireland, South Africa, and Argentina last summer on October 14, 2023, and did The Roar | Sports Writers Blog report on Argentina's victories over the All Blacks in Christchurch last year and their first victory in 2020 in Sydney on October 18, 2023, making the reporting on the All Blacks' defeats by Argentina consistent?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 168,
+          "title": "‘It happens’: All Blacks defend star centre after spray as Cheika heaps pressure on ‘favourites’ New Zealand",
+          "score": 1.8681656122207642
+        },
+        {
+          "chunk_index": 4830,
+          "title": "Thirty-seven phases of agony define Ireland’s greatest heartbreak as curse continues",
+          "score": 1.8329155445098877
+        },
+        {
+          "chunk_index": 1696,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.795609474182129
+        },
+        {
+          "chunk_index": 1701,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.7680864334106445
+        },
+        {
+          "chunk_index": 1695,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.7308461666107178
+        },
+        {
+          "chunk_index": 1697,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.7296793460845947
+        },
+        {
+          "chunk_index": 166,
+          "title": "‘It happens’: All Blacks defend star centre after spray as Cheika heaps pressure on ‘favourites’ New Zealand",
+          "score": 1.7259331941604614
+        },
+        {
+          "chunk_index": 1770,
+          "title": "Legacy vs ego: The Springboks are playing for South Africa, the All Blacks are playing for themselves",
+          "score": 1.6984097957611084
+        },
+        {
+          "chunk_index": 1698,
+          "title": "Where to watch England vs South Africa: Live stream, TV channel, lineups, odds for 2023 Rugby World Cup semifinal",
+          "score": 1.6940932273864746
+        },
+        {
+          "chunk_index": 167,
+          "title": "‘It happens’: All Blacks defend star centre after spray as Cheika heaps pressure on ‘favourites’ New Zealand",
+          "score": 1.6913456916809082
+        }
+      ]
+    },
+    {
+      "question_number": 43,
+      "question": "Does the TechCrunch article suggest that Sam Altman is involved in a new venture, while the Fortune article discusses the roles of Matt Huang and Gary Wang in the context of venture capital and FTX, without indicating any new venture involvement for them?",
+      "reference_answer": "Yes",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 74,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.6795015335083008
+        },
+        {
+          "chunk_index": 2275,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6448591947555542
+        },
+        {
+          "chunk_index": 2943,
+          "title": "Today the FTX jury suffered through a code review",
+          "score": 1.6410250663757324
+        },
+        {
+          "chunk_index": 2271,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6408421993255615
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.625932216644287
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.594160556793213
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.581588864326477
+        },
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.5753988027572632
+        },
+        {
+          "chunk_index": 1225,
+          "title": "In the end, the FTX trial was about the friends screwed along the way",
+          "score": 1.566182255744934
+        },
+        {
+          "chunk_index": 1817,
+          "title": "The fate of US venture capital in China teeters on uncertainty",
+          "score": 1.555511474609375
+        }
+      ]
+    },
+    {
+      "question_number": 44,
+      "question": "Did the 'Fortune' report on Donald Trump's real estate valuations published on September 26, 2023, disagree with 'The Age' report regarding the allegation that Donald Trump increased the value of his penthouse apartment in the matter of inflating property values?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4748,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.9080688953399658
+        },
+        {
+          "chunk_index": 4744,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.8964985609054565
+        },
+        {
+          "chunk_index": 4754,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.8946540355682373
+        },
+        {
+          "chunk_index": 4751,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.8878519535064697
+        },
+        {
+          "chunk_index": 4750,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.8253962993621826
+        },
+        {
+          "chunk_index": 4749,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.8143014907836914
+        },
+        {
+          "chunk_index": 4752,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.803161382675171
+        },
+        {
+          "chunk_index": 4753,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.7969255447387695
+        },
+        {
+          "chunk_index": 4755,
+          "title": "The $777 million surprise: Donald Trump is getting richer",
+          "score": 1.6961647272109985
+        },
+        {
+          "chunk_index": 4745,
+          "title": "Donald Trump defrauded banks with 'fantasy' to build his real estate empire, judge rules in a major repudiation against the former president",
+          "score": 1.6859149932861328
+        }
+      ]
+    },
+    {
+      "question_number": 45,
+      "question": "What entity, discussed in articles from both The Verge and Fortune, was involved in implementing a system to prevent liquidation due to software issues, took on losses to maintain another company's balance sheet, and claimed to have acted legally in its business practices as a customer, payment processor, and market maker?",
+      "reference_answer": "Alameda Research",
+      "generated_answer": "Alameda",
+      "exact_match": 0,
+      "answer_f1": 0.6666666666666666,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 233,
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "score": 1.460791826248169
+        },
+        {
+          "chunk_index": 2946,
+          "title": "Today the FTX jury suffered through a code review",
+          "score": 1.4584650993347168
+        },
+        {
+          "chunk_index": 1627,
+          "title": "Is Sam Bankman-Fried’s defense even trying to win?",
+          "score": 1.4453628063201904
+        },
+        {
+          "chunk_index": 2944,
+          "title": "Today the FTX jury suffered through a code review",
+          "score": 1.444976806640625
+        },
+        {
+          "chunk_index": 478,
+          "title": "The jury finally hears from Sam Bankman-Fried",
+          "score": 1.4224021434783936
+        },
+        {
+          "chunk_index": 845,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.4185668230056763
+        },
+        {
+          "chunk_index": 1720,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.402420997619629
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.3636866807937622
+        },
+        {
+          "chunk_index": 1760,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.359578251838684
+        },
+        {
+          "chunk_index": 744,
+          "title": "Here’s how Rainforest, a budding Stripe rival, aims to win over software companies",
+          "score": 1.3583977222442627
+        }
+      ]
+    },
+    {
+      "question_number": 46,
+      "question": "Who is the individual associated with the rise of artificial intelligence and generative AI technology, who did not attempt to be removed from OpenAI by its co-founders according to 'The Age', became a prominent voice in Silicon Valley as reported by 'Fortune', and was involved in a controversial departure from OpenAI that led to speculation about truthfulness with the board as discussed by 'TechCrunch'?",
+      "reference_answer": "Sam Altman",
+      "generated_answer": "Sam Altman",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3184,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.871495008468628
+        },
+        {
+          "chunk_index": 4589,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.8440566062927246
+        },
+        {
+          "chunk_index": 3187,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.819901943206787
+        },
+        {
+          "chunk_index": 483,
+          "title": "How the OpenAI fiasco could bolster Meta and the ‘open AI’ movement",
+          "score": 1.816596269607544
+        },
+        {
+          "chunk_index": 4590,
+          "title": "Sam Altman ousted as OpenAI’s CEO",
+          "score": 1.80519700050354
+        },
+        {
+          "chunk_index": 3186,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.8050367832183838
+        },
+        {
+          "chunk_index": 3183,
+          "title": "OpenAI's ex-chairman accuses board of going rogue in firing Altman: 'Sam and I are shocked and saddened by what the board did'",
+          "score": 1.7948424816131592
+        },
+        {
+          "chunk_index": 211,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.7924160957336426
+        },
+        {
+          "chunk_index": 210,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.785330057144165
+        },
+        {
+          "chunk_index": 197,
+          "title": "How ego and fear fuelled the rise of artificial intelligence",
+          "score": 1.7817457914352417
+        }
+      ]
+    },
+    {
+      "question_number": 47,
+      "question": "Does the article from The Verge suggest that Google's influence on the internet's appearance is a different aspect of its impact compared to the financial influence on platforms described in the TechCrunch article about Google's spending, and is the anticompetitive behavior towards news publishers mentioned in another TechCrunch article a separate issue from these influences?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.761476993560791
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.761215090751648
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.6969707012176514
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6917433738708496
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6854593753814697
+        },
+        {
+          "chunk_index": 239,
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "score": 1.6765854358673096
+        },
+        {
+          "chunk_index": 1155,
+          "title": "The people who ruined the internet",
+          "score": 1.6738972663879395
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.6697559356689453
+        },
+        {
+          "chunk_index": 1161,
+          "title": "The people who ruined the internet",
+          "score": 1.6523829698562622
+        },
+        {
+          "chunk_index": 110,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.6467291116714478
+        }
+      ]
+    },
+    {
+      "question_number": 48,
+      "question": "Does the TechCrunch article suggest that the success in \"North America's EV market\" is due to the size and price of electric vehicles, while The Verge article focuses on Donald Trump's criticism of electric vehicles regarding their cost, range, and impact on American jobs?",
+      "reference_answer": "no",
+      "generated_answer": "Yes",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3071,
+          "title": "Trump and the GOP are trying to drive a wedge between autoworkers and EVs",
+          "score": 1.9443724155426025
+        },
+        {
+          "chunk_index": 3072,
+          "title": "Trump and the GOP are trying to drive a wedge between autoworkers and EVs",
+          "score": 1.8560222387313843
+        },
+        {
+          "chunk_index": 3076,
+          "title": "Trump and the GOP are trying to drive a wedge between autoworkers and EVs",
+          "score": 1.8401532173156738
+        },
+        {
+          "chunk_index": 3073,
+          "title": "Trump and the GOP are trying to drive a wedge between autoworkers and EVs",
+          "score": 1.7929933071136475
+        },
+        {
+          "chunk_index": 3075,
+          "title": "Trump and the GOP are trying to drive a wedge between autoworkers and EVs",
+          "score": 1.7911163568496704
+        },
+        {
+          "chunk_index": 4577,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.7792079448699951
+        },
+        {
+          "chunk_index": 3066,
+          "title": "The small and affordable EVs we lost in 2023",
+          "score": 1.6696237325668335
+        },
+        {
+          "chunk_index": 4576,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.665935754776001
+        },
+        {
+          "chunk_index": 4579,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.6657392978668213
+        },
+        {
+          "chunk_index": 4574,
+          "title": "Tesla ‘digs its own grave with the Cybertruck,’ Convoy collapses and Rivian scores a win at Rebelle",
+          "score": 1.6628930568695068
+        }
+      ]
+    },
+    {
+      "question_number": 49,
+      "question": "Considering the economic analysis from Bloomberg and the agricultural developments reported by Reuters, which minister, responsible for the finance portfolio in Zimbabwe, also announced a partnership with an international firm to boost crop production in the country?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4371,
+          "title": "Israel thwarts Hamas on the financial battlefield",
+          "score": 1.316295862197876
+        },
+        {
+          "chunk_index": 1826,
+          "title": "Japan’s prime minister Kishida says: ‘reassess our economy’",
+          "score": 1.27437162399292
+        },
+        {
+          "chunk_index": 1827,
+          "title": "Japan’s prime minister Kishida says: ‘reassess our economy’",
+          "score": 1.2665390968322754
+        },
+        {
+          "chunk_index": 3791,
+          "title": "Strategizing for sustainable development",
+          "score": 1.2650210857391357
+        },
+        {
+          "chunk_index": 4505,
+          "title": "Economists, central bankers are rethinking the quantitative easing strategy that saved the world but created bubbles and distortions",
+          "score": 1.2470088005065918
+        },
+        {
+          "chunk_index": 1830,
+          "title": "Japan’s prime minister Kishida says: ‘reassess our economy’",
+          "score": 1.232311725616455
+        },
+        {
+          "chunk_index": 1831,
+          "title": "Japan’s prime minister Kishida says: ‘reassess our economy’",
+          "score": 1.21915602684021
+        },
+        {
+          "chunk_index": 1261,
+          "title": "\"There are no sacred numbers\"",
+          "score": 1.212827205657959
+        },
+        {
+          "chunk_index": 823,
+          "title": "Sam Bankman-Fried didn’t ask where the $8 billion went",
+          "score": 1.206202745437622
+        },
+        {
+          "chunk_index": 222,
+          "title": "ASX set to open higher as Wall Street rebounds; $A rises",
+          "score": 1.20531165599823
+        }
+      ]
+    },
+    {
+      "question_number": 50,
+      "question": "Considering an article from The Times of India detailing Suhana Khan's debut in acting and another from Hindustan Times discussing a film festival where her first film was screened, which city hosted the festival where Suhana Khan's debut film was showcased according to these sources?",
+      "reference_answer": "Insufficient information.",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.5,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3282,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.3688750267028809
+        },
+        {
+          "chunk_index": 3284,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.3383291959762573
+        },
+        {
+          "chunk_index": 936,
+          "title": "The best movies of 2023 so far",
+          "score": 1.3182892799377441
+        },
+        {
+          "chunk_index": 935,
+          "title": "The best movies of 2023 so far",
+          "score": 1.2877483367919922
+        },
+        {
+          "chunk_index": 3283,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.2687499523162842
+        },
+        {
+          "chunk_index": 3285,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.2129199504852295
+        },
+        {
+          "chunk_index": 135,
+          "title": "A timeline of Will Smith and Jada Pinkett Smith’s relationship amid separation",
+          "score": 1.202359914779663
+        },
+        {
+          "chunk_index": 1747,
+          "title": "Beyoncé tops box office with $21 million debut for concert film ‘Renaissance’",
+          "score": 1.1950757503509521
+        },
+        {
+          "chunk_index": 136,
+          "title": "A timeline of Will Smith and Jada Pinkett Smith’s relationship amid separation",
+          "score": 1.1850694417953491
+        },
+        {
+          "chunk_index": 3286,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.1781556606292725
+        }
+      ]
+    },
+    {
+      "question_number": 51,
+      "question": "Between the TechCrunch report on Epic Games' antitrust battle with Google published on November 6, 2023, and the TechCrunch report on a news publisher filing a class action antitrust suit against Google published on December 15, 2023, was there consistency in the portrayal of Google's anticompetitive allegations?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 340,
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "score": 2.093541145324707
+        },
+        {
+          "chunk_index": 335,
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "score": 2.06388521194458
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.9474279880523682
+        },
+        {
+          "chunk_index": 1717,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.914918065071106
+        },
+        {
+          "chunk_index": 1716,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.9032783508300781
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.8924694061279297
+        },
+        {
+          "chunk_index": 336,
+          "title": "What to know about Fortnite maker Epic Games’ antitrust battle with Google, starting today",
+          "score": 1.8908289670944214
+        },
+        {
+          "chunk_index": 3351,
+          "title": "Epic v. Google, explained",
+          "score": 1.8888105154037476
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8877460956573486
+        },
+        {
+          "chunk_index": 3352,
+          "title": "Epic v. Google, explained",
+          "score": 1.8826225996017456
+        }
+      ]
+    },
+    {
+      "question_number": 52,
+      "question": "Does the article from Polygon discussing the Barbie film describe Mattel's portrayal in the same light as how The Independent - Life and Style article describes Mattel's handling of the Wilma Mankiller Barbie doll?",
+      "reference_answer": "no",
+      "generated_answer": "No",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 966,
+          "title": "Mattel slammed for ‘inaccurate’ Cherokee Barbie",
+          "score": 1.830980896949768
+        },
+        {
+          "chunk_index": 969,
+          "title": "Mattel slammed for ‘inaccurate’ Cherokee Barbie",
+          "score": 1.817232370376587
+        },
+        {
+          "chunk_index": 970,
+          "title": "Mattel slammed for ‘inaccurate’ Cherokee Barbie",
+          "score": 1.7441489696502686
+        },
+        {
+          "chunk_index": 968,
+          "title": "Mattel slammed for ‘inaccurate’ Cherokee Barbie",
+          "score": 1.7228670120239258
+        },
+        {
+          "chunk_index": 967,
+          "title": "Mattel slammed for ‘inaccurate’ Cherokee Barbie",
+          "score": 1.6766769886016846
+        },
+        {
+          "chunk_index": 952,
+          "title": "The best movies of 2023 so far",
+          "score": 1.4843637943267822
+        },
+        {
+          "chunk_index": 951,
+          "title": "The best movies of 2023 so far",
+          "score": 1.390608310699463
+        },
+        {
+          "chunk_index": 953,
+          "title": "The best movies of 2023 so far",
+          "score": 1.3346657752990723
+        },
+        {
+          "chunk_index": 3284,
+          "title": "Shayda director Noora Niasari on family violence, Iranian liberation and taking her first film to the Oscars",
+          "score": 1.2049882411956787
+        },
+        {
+          "chunk_index": 1669,
+          "title": "The Halloween Countdown: 31 days of horror to watch",
+          "score": 1.1857815980911255
+        }
+      ]
+    },
+    {
+      "question_number": 53,
+      "question": "Does the TalkSport article suggest that Manchester United's defensive performance in the Champions League group stages is worse than in previous years, as indicated by a new record for goals conceded, while The Guardian article implies that Manchester United's overall performance under pressure in the Champions League, especially in Istanbul, has been consistently poor?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 89,
+          "title": "Leaky defence ‘isn’t good enough’ and ‘scars’ grow from throwing away leads – It’s all going wrong for Manchester United in Europe",
+          "score": 1.9640357494354248
+        },
+        {
+          "chunk_index": 87,
+          "title": "Leaky defence ‘isn’t good enough’ and ‘scars’ grow from throwing away leads – It’s all going wrong for Manchester United in Europe",
+          "score": 1.8958096504211426
+        },
+        {
+          "chunk_index": 3026,
+          "title": "Man United next manager: Assessing candidates to replace Erik ten Hag if Red Devils sack Dutch boss",
+          "score": 1.8901095390319824
+        },
+        {
+          "chunk_index": 2187,
+          "title": "Erik ten Hag could pay the price for Manchester United’s incompetent Champions League campaign",
+          "score": 1.8864083290100098
+        },
+        {
+          "chunk_index": 95,
+          "title": "Manchester United face Galatasaray with high hopes but bad memories",
+          "score": 1.8860808610916138
+        },
+        {
+          "chunk_index": 2186,
+          "title": "Erik ten Hag could pay the price for Manchester United’s incompetent Champions League campaign",
+          "score": 1.885581374168396
+        },
+        {
+          "chunk_index": 88,
+          "title": "Leaky defence ‘isn’t good enough’ and ‘scars’ grow from throwing away leads – It’s all going wrong for Manchester United in Europe",
+          "score": 1.8785665035247803
+        },
+        {
+          "chunk_index": 90,
+          "title": "Leaky defence ‘isn’t good enough’ and ‘scars’ grow from throwing away leads – It’s all going wrong for Manchester United in Europe",
+          "score": 1.8776851892471313
+        },
+        {
+          "chunk_index": 93,
+          "title": "Manchester United face Galatasaray with high hopes but bad memories",
+          "score": 1.8591303825378418
+        },
+        {
+          "chunk_index": 91,
+          "title": "Leaky defence ‘isn’t good enough’ and ‘scars’ grow from throwing away leads – It’s all going wrong for Manchester United in Europe",
+          "score": 1.8578435182571411
+        }
+      ]
+    },
+    {
+      "question_number": 54,
+      "question": "Between the report by The Verge on Apple's defense of its Google Search deal published on September 26, 2023, and the report by TechCrunch on the class action antitrust suit against Google published on December 15, 2023, was there no change in the portrayal of Google's business practices with other companies?",
+      "reference_answer": "no",
+      "generated_answer": "No",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.935055136680603
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.9171693325042725
+        },
+        {
+          "chunk_index": 2374,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.8897264003753662
+        },
+        {
+          "chunk_index": 98,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.871249794960022
+        },
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.8623435497283936
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.860750436782837
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.857649326324463
+        },
+        {
+          "chunk_index": 2375,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.84169340133667
+        },
+        {
+          "chunk_index": 2378,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.8131206035614014
+        },
+        {
+          "chunk_index": 99,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.8036879301071167
+        }
+      ]
+    },
+    {
+      "question_number": 55,
+      "question": "Does the TechCrunch article on Israel's tech employees suggest a different scale of impact from the war on workforce mobilization compared to the TechCrunch article on GitLab's workforce reduction?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 5391,
+          "title": "Palestine’s growing tech industry has been literally blown apart by Israel’s war on Hamas",
+          "score": 1.8153469562530518
+        },
+        {
+          "chunk_index": 5397,
+          "title": "Palestine’s growing tech industry has been literally blown apart by Israel’s war on Hamas",
+          "score": 1.8024721145629883
+        },
+        {
+          "chunk_index": 5396,
+          "title": "Palestine’s growing tech industry has been literally blown apart by Israel’s war on Hamas",
+          "score": 1.7982549667358398
+        },
+        {
+          "chunk_index": 5390,
+          "title": "Palestine’s growing tech industry has been literally blown apart by Israel’s war on Hamas",
+          "score": 1.7759475708007812
+        },
+        {
+          "chunk_index": 5395,
+          "title": "Palestine’s growing tech industry has been literally blown apart by Israel’s war on Hamas",
+          "score": 1.7661200761795044
+        },
+        {
+          "chunk_index": 5393,
+          "title": "Palestine’s growing tech industry has been literally blown apart by Israel’s war on Hamas",
+          "score": 1.755629062652588
+        },
+        {
+          "chunk_index": 434,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.750852346420288
+        },
+        {
+          "chunk_index": 4091,
+          "title": "Israel’s startup ecosystem: down but not out",
+          "score": 1.7492694854736328
+        },
+        {
+          "chunk_index": 4089,
+          "title": "Israel’s startup ecosystem: down but not out",
+          "score": 1.7327250242233276
+        },
+        {
+          "chunk_index": 410,
+          "title": "A comprehensive list of 2023 tech layoffs",
+          "score": 1.7166774272918701
+        }
+      ]
+    },
+    {
+      "question_number": 56,
+      "question": "Did the Sporting News report a victory for the Dallas Cowboys over the Seattle Seahawks in Week 13 of the NFL season, and did the same source also report a win for the Detroit Lions against the Green Bay Packers?",
+      "reference_answer": "Yes",
+      "generated_answer": "Yes",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 3252,
+          "title": "Prisco's Week 12 NFL picks: Jaguars beat Texans in AFC South battle, Saints get key divisional win vs. Falcons",
+          "score": 1.814488172531128
+        },
+        {
+          "chunk_index": 316,
+          "title": "NFL standings: Updated AFC, NFC playoff picture for Week 13 of 2023 season",
+          "score": 1.780135154724121
+        },
+        {
+          "chunk_index": 315,
+          "title": "NFL standings: Updated AFC, NFC playoff picture for Week 13 of 2023 season",
+          "score": 1.746896505355835
+        },
+        {
+          "chunk_index": 3253,
+          "title": "Prisco's Week 12 NFL picks: Jaguars beat Texans in AFC South battle, Saints get key divisional win vs. Falcons",
+          "score": 1.7210407257080078
+        },
+        {
+          "chunk_index": 1197,
+          "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+          "score": 1.7120916843414307
+        },
+        {
+          "chunk_index": 2815,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.7044401168823242
+        },
+        {
+          "chunk_index": 3021,
+          "title": "NFL Best Bets Week 9: Colts clobber Panthers, Dolphins drop Chiefs in Germany",
+          "score": 1.6948779821395874
+        },
+        {
+          "chunk_index": 25,
+          "title": "Raiders vs. Lions live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.6811504364013672
+        },
+        {
+          "chunk_index": 1992,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.670088291168213
+        },
+        {
+          "chunk_index": 1533,
+          "title": "NFL roundup: Pats hit new low as Lions reach 9-3 for first time since 1962",
+          "score": 1.6692368984222412
+        }
+      ]
+    },
+    {
+      "question_number": 57,
+      "question": "Who is the player that, according to Sporting News, is the top wide receiver for Week 14 and may struggle to achieve 2,000-plus receiving yards in a single season due to strong pass defenses, and according to CBSSports.com, needs to average almost 153 yards per game in his final three games to reach this goal?",
+      "reference_answer": "Tyreek Hill",
+      "generated_answer": "Tyreek Hill",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1461,
+          "title": "Fantasy Football Week 16 Wide Receiver Preview: Waiver adds, DFS plays, and more",
+          "score": 1.8205578327178955
+        },
+        {
+          "chunk_index": 1460,
+          "title": "Fantasy Football Week 16 Wide Receiver Preview: Waiver adds, DFS plays, and more",
+          "score": 1.8077504634857178
+        },
+        {
+          "chunk_index": 1941,
+          "title": "Fantasy Football WR PPR Rankings Week 14: Who to start, best sleepers at wide receiver",
+          "score": 1.6765429973602295
+        },
+        {
+          "chunk_index": 3025,
+          "title": "NFL Best Bets Week 9: Colts clobber Panthers, Dolphins drop Chiefs in Germany",
+          "score": 1.6617834568023682
+        },
+        {
+          "chunk_index": 1943,
+          "title": "Fantasy Football WR PPR Rankings Week 14: Who to start, best sleepers at wide receiver",
+          "score": 1.6428134441375732
+        },
+        {
+          "chunk_index": 1459,
+          "title": "Fantasy Football Week 16 Wide Receiver Preview: Waiver adds, DFS plays, and more",
+          "score": 1.638270378112793
+        },
+        {
+          "chunk_index": 1942,
+          "title": "Fantasy Football WR PPR Rankings Week 14: Who to start, best sleepers at wide receiver",
+          "score": 1.6278170347213745
+        },
+        {
+          "chunk_index": 1116,
+          "title": "Fantasy Football WR PPR Rankings Week 13: Who to start, best sleepers at wide receiver",
+          "score": 1.6138136386871338
+        },
+        {
+          "chunk_index": 526,
+          "title": "Fantasy Football Week 13 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+          "score": 1.602624535560608
+        },
+        {
+          "chunk_index": 584,
+          "title": "NFL Fantasy Football Week 5 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+          "score": 1.5818867683410645
+        }
+      ]
+    },
+    {
+      "question_number": 58,
+      "question": "Was there inconsistency in the promotional offers reported by Sporting News on September 26, 2023, regarding the Caesars Sportsbook promo for new sign-ups in Vermont, and by CBSSports.com on October 13, 2023, about the Caesars Sportsbook offer for new customers?",
+      "reference_answer": "no",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 721,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 2.1819944381713867
+        },
+        {
+          "chunk_index": 722,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 2.046687364578247
+        },
+        {
+          "chunk_index": 708,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.865584373474121
+        },
+        {
+          "chunk_index": 720,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.8651585578918457
+        },
+        {
+          "chunk_index": 728,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.8302264213562012
+        },
+        {
+          "chunk_index": 711,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.8268139362335205
+        },
+        {
+          "chunk_index": 715,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.8173086643218994
+        },
+        {
+          "chunk_index": 713,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.8146882057189941
+        },
+        {
+          "chunk_index": 710,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.8007988929748535
+        },
+        {
+          "chunk_index": 716,
+          "title": "Vermont Sportsbook Promos and Sports Betting Launch News",
+          "score": 1.7991759777069092
+        }
+      ]
+    },
+    {
+      "question_number": 59,
+      "question": "Did the Sporting News report on Elijah Garcia's 16th victory before The Roar | Sports Writers Blog covered the first-round knockout by Jai Opetaia against Ellis Zorro?",
+      "reference_answer": "Yes",
+      "generated_answer": "No",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 5008,
+          "title": "‘As clinical as it gets’: Unbeaten Aussie moves to 24-0 with stunning first-round KO of hapless Englishman",
+          "score": 1.8776944875717163
+        },
+        {
+          "chunk_index": 5009,
+          "title": "‘As clinical as it gets’: Unbeaten Aussie moves to 24-0 with stunning first-round KO of hapless Englishman",
+          "score": 1.7706807851791382
+        },
+        {
+          "chunk_index": 3242,
+          "title": "Liam Paro responds to Shakur Stevenson sparring clip ahead of return vs. Montana Love",
+          "score": 1.5572081804275513
+        },
+        {
+          "chunk_index": 2484,
+          "title": "Canelo Alvarez vs Jermell Charlo live fight updates, results, highlights from 2023 boxing fight",
+          "score": 1.5477733612060547
+        },
+        {
+          "chunk_index": 2706,
+          "title": "Showtime Boxing to take final 10-count: Top 5 greatest fights revisited",
+          "score": 1.5020928382873535
+        },
+        {
+          "chunk_index": 2483,
+          "title": "Canelo Alvarez vs Jermell Charlo live fight updates, results, highlights from 2023 boxing fight",
+          "score": 1.4923815727233887
+        },
+        {
+          "chunk_index": 3241,
+          "title": "Liam Paro responds to Shakur Stevenson sparring clip ahead of return vs. Montana Love",
+          "score": 1.4913568496704102
+        },
+        {
+          "chunk_index": 5012,
+          "title": "‘As clinical as it gets’: Unbeaten Aussie moves to 24-0 with stunning first-round KO of hapless Englishman",
+          "score": 1.4908640384674072
+        },
+        {
+          "chunk_index": 3240,
+          "title": "Liam Paro responds to Shakur Stevenson sparring clip ahead of return vs. Montana Love",
+          "score": 1.4876505136489868
+        },
+        {
+          "chunk_index": 3244,
+          "title": "Liam Paro responds to Shakur Stevenson sparring clip ahead of return vs. Montana Love",
+          "score": 1.479164719581604
+        }
+      ]
+    },
+    {
+      "question_number": 60,
+      "question": "Does the TechCrunch article suggest that Apple imposes restrictions on browser selection on iPhones, while The Verge article claims that Apple enforces uniform terms through its store and payment system, and does the Engadget article focus on Apple's hardware updates rather than its software policies?",
+      "reference_answer": "Yes",
+      "generated_answer": "Insufficient evidence",
+      "exact_match": 0,
+      "answer_f1": 0.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 100,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.6916453838348389
+        },
+        {
+          "chunk_index": 1419,
+          "title": "Meta seeks legislation that would require parents to approve teens’ app downloads",
+          "score": 1.6564596891403198
+        },
+        {
+          "chunk_index": 3348,
+          "title": "Epic v. Google, explained",
+          "score": 1.6508805751800537
+        },
+        {
+          "chunk_index": 1726,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.6396952867507935
+        },
+        {
+          "chunk_index": 2375,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6369463205337524
+        },
+        {
+          "chunk_index": 101,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.6187596321105957
+        },
+        {
+          "chunk_index": 108,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.6119170188903809
+        },
+        {
+          "chunk_index": 102,
+          "title": "Apple defends Google Search deal in court: ‘There wasn’t a valid alternative’",
+          "score": 1.6085772514343262
+        },
+        {
+          "chunk_index": 1725,
+          "title": "Tim Sweeney on Epic’s victory royale over Google",
+          "score": 1.584973931312561
+        },
+        {
+          "chunk_index": 3349,
+          "title": "Epic v. Google, explained",
+          "score": 1.578104853630066
+        }
+      ]
+    },
+    {
+      "question_number": 61,
+      "question": "Which player, known for influencing Argentina's forward line with a youth movement including Julian Alvarez and Alejandro Garnacho, recently returned to play for Inter Miami and is expected to participate in their match after a period of injury, according to reports from Sporting News?",
+      "reference_answer": "Lionel Messi",
+      "generated_answer": "Lionel Messi",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 4794,
+          "title": "Argentina vs Paraguay live score, result, updates, highlights from CONMEBOL World Cup qualifying",
+          "score": 1.810182809829712
+        },
+        {
+          "chunk_index": 333,
+          "title": "Chicago Fire vs Inter Miami live score, result, updates, highlights from Lionel Messi in MLS match",
+          "score": 1.781341791152954
+        },
+        {
+          "chunk_index": 876,
+          "title": "Inter Miami vs FC Cincinnati live score, result, updates, highlights with Lionel Messi's MLS playoffs on line",
+          "score": 1.7776858806610107
+        },
+        {
+          "chunk_index": 4795,
+          "title": "Argentina vs Paraguay live score, result, updates, highlights from CONMEBOL World Cup qualifying",
+          "score": 1.737107276916504
+        },
+        {
+          "chunk_index": 332,
+          "title": "Chicago Fire vs Inter Miami live score, result, updates, highlights from Lionel Messi in MLS match",
+          "score": 1.7363193035125732
+        },
+        {
+          "chunk_index": 4793,
+          "title": "Argentina vs Paraguay live score, result, updates, highlights from CONMEBOL World Cup qualifying",
+          "score": 1.7222461700439453
+        },
+        {
+          "chunk_index": 4803,
+          "title": "Inter Miami friendly matches for 2024 preseason: Lionel Messi to play Newell's Old Boys, China tour cancelled",
+          "score": 1.7157986164093018
+        },
+        {
+          "chunk_index": 1050,
+          "title": "Watch Argentina vs Paraguay live stream, TV channel, lineups, betting odds for World Cup qualifying match",
+          "score": 1.701439619064331
+        },
+        {
+          "chunk_index": 330,
+          "title": "Chicago Fire vs Inter Miami live score, result, updates, highlights from Lionel Messi in MLS match",
+          "score": 1.6772702932357788
+        },
+        {
+          "chunk_index": 327,
+          "title": "Chicago Fire vs Inter Miami live score, result, updates, highlights from Lionel Messi in MLS match",
+          "score": 1.6724200248718262
+        }
+      ]
+    },
+    {
+      "question_number": 62,
+      "question": "Which individual, associated with both the beginning of a criminal trial reported by TechCrunch and the persuasion of a former Jane Street colleague as detailed by Fortune, is the same person who has entered a not-guilty plea to charges as covered by TechCrunch and is alleged by the prosecution in another TechCrunch article to have sought wealth, power, and influence through fraud?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.7097903490066528
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6954996585845947
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6895864009857178
+        },
+        {
+          "chunk_index": 2851,
+          "title": "How is it still getting worse for Sam Bankman-Fried?",
+          "score": 1.6857985258102417
+        },
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.682321310043335
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.6798734664916992
+        },
+        {
+          "chunk_index": 1225,
+          "title": "In the end, the FTX trial was about the friends screwed along the way",
+          "score": 1.6501100063323975
+        },
+        {
+          "chunk_index": 1762,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.6265640258789062
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.6253011226654053
+        },
+        {
+          "chunk_index": 233,
+          "title": "Is Sam Bankman-Fried a bad ‘man’ or a good ‘boy’? Lawyers swap opening statements before first witnesses take the stand",
+          "score": 1.6236765384674072
+        }
+      ]
+    },
+    {
+      "question_number": 63,
+      "question": "Does the 'Sporting News' article suggest that the Seattle Seahawks are currently on a winning streak, in contrast to the 'Essentially Sports' article which discusses the Houston Astros having had a successful streak prior to their controversy?",
+      "reference_answer": "no",
+      "generated_answer": "No, the 'Sporting News' article does not suggest that the Seattle Seahawks are currently on a winning streak. In fact, the article mentions that the Seahawks have been reeling even worse, losing four straight games. The article also mentions that the Seahawks have been dominated at home twice this season, including a 40-0 blowout in Week 1.",
+      "exact_match": 0,
+      "answer_f1": 0.039999999999999994,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1992,
+          "title": "Best sportsbook bonus offers for NFL Monday Night Football Eagles vs. Seahawks: Claim over $5,000 in bonuses from Bet365, BetMGM, BetRivers, Caesars Sportsbook, DraftKings and FanDuel",
+          "score": 1.5581002235412598
+        },
+        {
+          "chunk_index": 2815,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.554840326309204
+        },
+        {
+          "chunk_index": 2822,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.5538803339004517
+        },
+        {
+          "chunk_index": 2817,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.5362621545791626
+        },
+        {
+          "chunk_index": 3021,
+          "title": "NFL Best Bets Week 9: Colts clobber Panthers, Dolphins drop Chiefs in Germany",
+          "score": 1.48837411403656
+        },
+        {
+          "chunk_index": 2818,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.4753508567810059
+        },
+        {
+          "chunk_index": 2816,
+          "title": "Seahawks vs. Giants live score, updates, highlights from NFL 'Monday Night Football' game",
+          "score": 1.4690568447113037
+        },
+        {
+          "chunk_index": 1200,
+          "title": "NFL power rankings: Lions, 49ers level up; Texans jump Bengals, Bills; Jets, Patriots sink to bottom for Week 11",
+          "score": 1.46500825881958
+        },
+        {
+          "chunk_index": 510,
+          "title": "Fantasy Football Week 13 Lineup Decisions: Starts, Sits, Sleepers, Busts to know for every game",
+          "score": 1.444382905960083
+        },
+        {
+          "chunk_index": 316,
+          "title": "NFL standings: Updated AFC, NFC playoff picture for Week 13 of 2023 season",
+          "score": 1.44178307056427
+        }
+      ]
+    },
+    {
+      "question_number": 64,
+      "question": "What company, recently scrutinized by European consumer groups for its ad-free subscription model's GDPR compliance and by EU regulators for content moderation during the Israel-Hamas war, also faces allegations of bias in suppressing Palestinian voices, as reported by TechCrunch?",
+      "reference_answer": "Meta",
+      "generated_answer": "Meta",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 1062,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 2.059939384460449
+        },
+        {
+          "chunk_index": 1064,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 2.0293169021606445
+        },
+        {
+          "chunk_index": 1059,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 2.027137279510498
+        },
+        {
+          "chunk_index": 1055,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 2.0151290893554688
+        },
+        {
+          "chunk_index": 1063,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.9936102628707886
+        },
+        {
+          "chunk_index": 1057,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.9863269329071045
+        },
+        {
+          "chunk_index": 1061,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.9824295043945312
+        },
+        {
+          "chunk_index": 1058,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.9776785373687744
+        },
+        {
+          "chunk_index": 1065,
+          "title": "Meta has a moderation bias problem, not just a ‘bug,’ that’s suppressing Palestinian voices",
+          "score": 1.9612327814102173
+        },
+        {
+          "chunk_index": 171,
+          "title": "After warning, the EU opens investigation into X over alleged disinformation",
+          "score": 1.959594964981079
+        }
+      ]
+    },
+    {
+      "question_number": 65,
+      "question": "Who is the individual facing a criminal trial as reported by TechCrunch, persuaded a former colleague from Jane Street to join his ventures as noted by Fortune, communicated his intentions regarding FTX's governance structure to Paradigm according to Cnbc | World Business News Leader, and is accused by the prosecution of committing fraud for personal gain as covered by TechCrunch?",
+      "reference_answer": "Sam Bankman-Fried",
+      "generated_answer": "Sam Bankman-Fried",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 70,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 2.0494089126586914
+        },
+        {
+          "chunk_index": 1761,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 2.001729965209961
+        },
+        {
+          "chunk_index": 2266,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.9887850284576416
+        },
+        {
+          "chunk_index": 844,
+          "title": "Sam Bankman-Fried was a terrible boyfriend",
+          "score": 1.9810242652893066
+        },
+        {
+          "chunk_index": 79,
+          "title": "SBF’s trial starts soon, but how did he — and FTX — get here?",
+          "score": 1.975886344909668
+        },
+        {
+          "chunk_index": 1762,
+          "title": "The FTX trial is bigger than Sam Bankman-Fried",
+          "score": 1.9682012796401978
+        },
+        {
+          "chunk_index": 2267,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.9537029266357422
+        },
+        {
+          "chunk_index": 2269,
+          "title": "Sex, Signal messages, and sabotaging FTX's code: SBF execs and Bahamas roommates tell all in court",
+          "score": 1.9404351711273193
+        },
+        {
+          "chunk_index": 74,
+          "title": "SBF Trial: The latest updates from the FTX collapse’s courtroom drama",
+          "score": 1.9390313625335693
+        },
+        {
+          "chunk_index": 1225,
+          "title": "In the end, the FTX trial was about the friends screwed along the way",
+          "score": 1.9207782745361328
+        }
+      ]
+    },
+    {
+      "question_number": 66,
+      "question": "Which company, according to articles from TechCrunch and The Age, not only invested billions to secure its position as the default search engine but is also accused of manipulating search results for ad revenue maximization and harming news publishers' revenues through anticompetitive practices?",
+      "reference_answer": "Google",
+      "generated_answer": "Google",
+      "exact_match": 1,
+      "answer_f1": 1.0,
+      "retrieved_chunks": [
+        {
+          "chunk_index": 243,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.694559931755066
+        },
+        {
+          "chunk_index": 247,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.681786298751831
+        },
+        {
+          "chunk_index": 2373,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6455553770065308
+        },
+        {
+          "chunk_index": 2377,
+          "title": "5 things we learned so far about the Google antitrust case",
+          "score": 1.6385786533355713
+        },
+        {
+          "chunk_index": 237,
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "score": 1.6322921514511108
+        },
+        {
+          "chunk_index": 239,
+          "title": "Is Google Search better than the rest? And is that fair?",
+          "score": 1.6231434345245361
+        },
+        {
+          "chunk_index": 245,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.617384672164917
+        },
+        {
+          "chunk_index": 106,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.6114519834518433
+        },
+        {
+          "chunk_index": 111,
+          "title": "More from the US v Google trial: vertical search, pre-installs and the case of Firefox/Yahoo",
+          "score": 1.595051884651184
+        },
+        {
+          "chunk_index": 246,
+          "title": "News publisher files class action antitrust suit against Google, citing AI’s harms to their bottom line",
+          "score": 1.5897921323776245
+        }
+      ]
+    }
+  ]
+}
