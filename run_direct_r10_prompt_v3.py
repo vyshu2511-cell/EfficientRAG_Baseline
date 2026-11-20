@@ -12,6 +12,8 @@ import requests
 import torch
 from transformers import AutoTokenizer, AutoModel
 
+from reranker import CrossEncoderReranker
+
 # -----------------------------------
 # 1. Command-line arguments
 # -----------------------------------
@@ -29,7 +31,40 @@ parser.add_argument(
     "--top-k",
     type=int,
     default=5,
-    help="Number of chunks to retrieve"
+    help="Number of final chunks to send to the LLM"
+)
+
+parser.add_argument(
+    "--rerank",
+    action="store_true",
+    help="Rerank a larger dense-retrieval candidate pool with a cross-encoder"
+)
+
+parser.add_argument(
+    "--candidate-k",
+    type=int,
+    default=50,
+    help="Number of dense-retrieval candidates to rerank (must be >= top-k)"
+)
+
+parser.add_argument(
+    "--reranker-model",
+    default="cross-encoder/ms-marco-MiniLM-L-6-v2",
+    help="Hugging Face cross-encoder model name"
+)
+
+parser.add_argument(
+    "--rerank-batch-size",
+    type=int,
+    default=8,
+    help="Number of query-document pairs scored per reranker batch"
+)
+
+parser.add_argument(
+    "--reranker-max-length",
+    type=int,
+    default=512,
+    help="Maximum token length for the cross-encoder"
 )
 
 parser.add_argument(
@@ -70,6 +105,11 @@ args = parser.parse_args()
 
 NUM_QUESTIONS = args.num_questions
 TOP_K = args.top_k
+RERANK = args.rerank
+CANDIDATE_K = args.candidate_k
+RERANKER_NAME = args.reranker_model
+RERANK_BATCH_SIZE = args.rerank_batch_size
+RERANKER_MAX_LENGTH = args.reranker_max_length
 EMBED_BATCH_SIZE = args.embed_batch_size
 WORKERS = args.workers
 LLM_NAME = args.llm_model
@@ -79,12 +119,21 @@ NUM_PREDICT = args.num_predict
 if (
     NUM_QUESTIONS < 1
     or TOP_K < 1
+    or CANDIDATE_K < 1
+    or RERANK_BATCH_SIZE < 1
+    or RERANKER_MAX_LENGTH < 1
     or EMBED_BATCH_SIZE < 1
     or WORKERS < 1
     or NUM_CONTEXT < 1
     or NUM_PREDICT < 1
 ):
-    parser.error("All arguments must be positive integers.")
+    parser.error("All numeric arguments must be positive integers.")
+
+if RERANK and CANDIDATE_K < TOP_K:
+    parser.error(
+        "--candidate-k must be greater than or equal to --top-k "
+        "when --rerank is enabled."
+    )
 
 MODEL_NAME = "facebook/contriever-msmarco"
 
@@ -108,10 +157,16 @@ assert len(embeddings) == len(chunks)
 
 NUM_QUESTIONS = min(NUM_QUESTIONS, len(questions))
 TOP_K = min(TOP_K, len(chunks))
+CANDIDATE_K = min(CANDIDATE_K, len(chunks))
 
 print("Total questions available:", len(questions))
 print("Questions to evaluate:", NUM_QUESTIONS)
-print("Top-K retrieval:", TOP_K)
+print("Final top-K:", TOP_K)
+if RERANK:
+    print("Dense candidates to rerank:", CANDIDATE_K)
+    print("Cross-encoder:", RERANKER_NAME)
+else:
+    print("Dense retrieval top-K:", TOP_K)
 print("Embedding shape:", embeddings.shape)
 
 # -----------------------------------
@@ -129,6 +184,18 @@ device = torch.device(
 
 model = model.to(device)
 model.eval()
+
+# Load the cross-encoder only when reranking is requested.
+reranker = (
+    CrossEncoderReranker(
+        model_name=RERANKER_NAME,
+        batch_size=RERANK_BATCH_SIZE,
+        max_length=RERANKER_MAX_LENGTH,
+        device=device
+    )
+    if RERANK
+    else None
+)
 
 # -----------------------------------
 # 4. Question embedding
@@ -172,28 +239,38 @@ def embed_question(question):
     return embed_questions([question])[0]
 
 # -----------------------------------
-# 5. Retrieve top-K chunks
+# 5. Retrieve and optionally rerank chunks
 # -----------------------------------
 
-def retrieve(query_vector):
+def retrieve(query_vector, question):
 
     scores = embeddings @ query_vector
+    retrieval_k = CANDIDATE_K if reranker is not None else TOP_K
 
     candidate_indices = np.argpartition(
         scores,
-        -TOP_K
-    )[-TOP_K:]
-    indices = candidate_indices[np.argsort(scores[candidate_indices])[::-1]]
+        -retrieval_k
+    )[-retrieval_k:]
+    indices = candidate_indices[
+        np.argsort(scores[candidate_indices])[::-1]
+    ]
 
-    return [
+    candidates = [
         {
             "chunk_index": int(index),
             "title": chunks[int(index)]["title"],
             "text": chunks[int(index)]["text"],
-            "score": float(scores[index])
+            "score": float(scores[index]),
+            "document_id": chunks[int(index)].get("document_id"),
+            "url": chunks[int(index)].get("url")
         }
         for index in indices
     ]
+
+    if reranker is not None:
+        return reranker.rerank(question, candidates)[:TOP_K]
+
+    return candidates[:TOP_K]
 
 # -----------------------------------
 # 6. Generate answer using Llama 3
@@ -323,14 +400,25 @@ def calculate_f1(prediction, reference):
 # -----------------------------------
 
 results = []
-output_file = (
-    PROCESSED
-    / (
+if RERANK:
+    reranker_slug = re.sub(
+        r"[^A-Za-z0-9._-]+", "_", RERANKER_NAME
+    )
+    output_name = (
+        f"direct_r{TOP_K}_reranked_c{CANDIDATE_K}_"
+        f"{reranker_slug}_prompt_v3_"
+        f"{re.sub(r'[^A-Za-z0-9._-]+', '_', LLM_NAME)}_"
+        f"results_{NUM_QUESTIONS}q.json"
+    )
+else:
+    # Keep the original baseline filename for backwards compatibility.
+    output_name = (
         f"direct_r{TOP_K}_prompt_v3_"
         f"{re.sub(r'[^A-Za-z0-9._-]+', '_', LLM_NAME)}_"
         f"results_{NUM_QUESTIONS}q.json"
     )
-)
+
+output_file = PROCESSED / output_name
 
 
 if output_file.exists():
@@ -359,7 +447,7 @@ def evaluate_question(question_number, item, query_vector):
     question = item["query"]
     reference = item["answer"]
 
-    retrieved = retrieve(query_vector)
+    retrieved = retrieve(query_vector, question)
     prediction = generate_answer(question, retrieved)
 
     return {
@@ -371,9 +459,16 @@ def evaluate_question(question_number, item, query_vector):
         "answer_f1": calculate_f1(prediction, reference),
         "retrieved_chunks": [
             {
-                "chunk_index": c["chunk_index"],
-                "title": c["title"],
-                "score": c["score"]
+                key: c[key]
+                for key in (
+                    "chunk_index",
+                    "title",
+                    "score",
+                    "reranker_score",
+                    "document_id",
+                    "url"
+                )
+                if key in c
             }
             for c in retrieved
         ]
@@ -410,6 +505,9 @@ with ThreadPoolExecutor(max_workers=WORKERS) as executor:
             "model": LLM_NAME,
             "retriever": MODEL_NAME,
             "top_k": TOP_K,
+            "reranking_enabled": RERANK,
+            "candidate_k": CANDIDATE_K if RERANK else None,
+            "reranker": RERANKER_NAME if RERANK else None,
             "questions_evaluated": len(results),
             "exact_match_accuracy": current_em / len(results),
             "average_answer_f1": current_f1 / len(results),
@@ -432,7 +530,7 @@ average_f1 = sum(
 ) / len(results)
 
 print("\n====================================")
-print("DIRECT-R@10 BASELINE EVALUATION")
+print("RERANKED RETRIEVAL EVALUATION" if RERANK else "DIRECT RETRIEVAL BASELINE EVALUATION")
 print("====================================")
 print("Questions evaluated:", len(results))
 print("Exact matches:", correct)
